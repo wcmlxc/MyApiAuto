@@ -1,0 +1,16 @@
+更新记录：
+
+2016-03-16 16:11:00
+Bug fixes：
+1.优化log文件创建策略
+2.优化isNeedToRun为no时，执行策略
+3.导入公共参数在dataCenter中完成
+4.优化businessTools.dataPlus方法，增强其健壮性
+
+2016-03-16 14:40:00
+New features：
+1.用例中checkData字段支持从之前接口获取信息，写法还是参考$(word)这种格式
+Bug fixes：
+1.checkData字段使用jsonpath时之前只支持结果完全匹配，现在修复为只要包含目标信息即可
+2.修复数据处理中心data字段未正确编码时，数据格式不正确，导致入参异常
+

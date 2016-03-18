@@ -1,0 +1,380 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Robotium Test Result</title>
+
+		<script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.2.min.js"></script>
+		
+		<style type="text/css">
+		#customers
+		{
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		width:100%;
+		border-collapse:collapse;
+		text-align:left;
+		}
+
+		#customers td, #customers th 
+		{
+		font-size:1em;
+		border:1px solid #98bf21;
+		padding:3px 7px 2px 7px;
+		}
+
+		#customers th 
+		{
+		font-size:1.1em;
+		padding-top:5px;
+		padding-bottom:4px;
+		background-color:#A7C942;
+		color:#ffffff;
+		text-align:left;
+		}
+
+		#customers tr.alt td 
+		{
+		color:#000000;
+		background-color:#EAF2D3;
+		text-align:center;
+		}
+		
+a:link,a:visited
+{
+	display: block;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000;
+    width: 100px;
+    text-align: left;
+    padding: 4px;
+    text-decoration: none;
+	
+}
+
+.boxmax {
+    text-align: center;
+    font-weight: 900;
+}
+a:hover,a:active
+{
+background-color:#FFFFFF;
+color: #3A5FCD;
+text-decoration: underline;
+}
+
+
+.hoverTd:hover{
+	background-color:#FFFFFF;
+	
+}
+.hoverTd a{
+	background-color:none;
+}
+		</style>
+
+		
+		<style type="text/css">
+${demo.css}
+		</style>
+		
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+		colors:[
+		'green',
+		'red',
+		'yellow'
+		],
+        title: {
+         },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+						color: 'blue'
+                        //color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            name: "Result",
+            colorByPoint: true,
+            data: [{
+                name: "Bestpay Client Pass",
+                y: 248,//用例pass的数量
+            }, {
+                name: "Bestpay Client Fail",
+                y:1,//用例fail的数量
+            }, {
+                name: "Bestpay Client NotTest",
+                y:0,//用例NotTest的数量
+            }]
+        }]
+    });
+});
+		</script>
+	</head>
+	<body>
+
+<script src="../../js/hexporting.js"></script>
+			<div id="right" class="content l" >
+			<div class="boxmax" >
+			<th style="min-width: 310px; height: 20px; margin: 0 auto" target="_blank">Robotium测试报告详情</th>
+			</div>
+			
+<script src="../../js/highcharts.js"></script>			
+			
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+	<div class="title">
+
+					
+		<div class="dynamic">
+			<div id="1243" style="width: 100%; height: 100%;">
+				<div id="infogrid_wrapper" class="dataTables_wrapper" role="grid">
+				
+
+<table id="customers">
+				<tr>
+				<th>翼支付版本</th>
+				<th>网络</th>
+				<th>测试环境</th>
+				<th>开始执行时间</th>
+				<th>结束执行时间</th>
+				<th>循环次数</th>
+				<th>执行等待时间</th>
+				<th>断言等待时间</th>
+				<th>总运行时间</th>
+				<th>总用例数</th>
+				</tr>
+				
+				</tr>
+				<td>V5.0.3</td>
+				<td>WIFI</td>
+				<td>生产</td>
+				<td>2015-11-13 12:44:31</td>
+				<td>2015-11-13 14:13:55</td>
+				<td>1</td>
+				<td>3</td>
+				<td>10</td>
+				<td>1H29M21S</td>
+				<td>249</td>
+				</tr>
+		     	</tr>
+				<td></td>
+				</tr>
+
+				
+				</table>
+				<table id="customers" >
+				<tr>
+				<th>测试报告详情</th>
+				</tr>
+				<table id="customers" class="hoverTable">
+			    <tr>
+				<td>Modules</td>
+				<td>TestCase</td>
+				<td>CaseNumber</td>
+				<td>Pass</td>
+				<td>Fail</td>
+				<td>Skip</td>
+				<td>Time</td>
+				</tr>
+				<tr>
+				<td>账户</td>
+				<td class="hoverTd"><a href="TestAccountMain.html">TestAccountMain</a></td>
+				<td>12</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>代金券</td>
+				<td class="hoverTd"><a href="TestVoucher.html">TestVoucher</a></td>
+				<td>25</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				
+				<tr>
+				<td>订单查询</td>
+				<td class="hoverTd"><a href="TestOrderInquery.html">TestOrderInquery</a></td>
+				<td>20</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				
+				<tr>
+				<td>收支明细</td>
+				<td class="hoverTd"><a href="TestPaymentDetails.html">TestPaymentDetails</a></td>
+				<td>22</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>客服中心</td>
+				<td class="hoverTd"><a href="TestCustomerCenter.html">TestCustomerCenter</a></td>
+				<td>14</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				
+				<tr>
+				<td>密码管理</td>
+				<td class="hoverTd"><a href="TestPasswordManage.html">TestPasswordManage</a></td>
+				<td>9</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>支付设置</td>
+				<td class="hoverTd"><a href="TestPaymentSetup.html">TestPaymentSetup</a></td>
+				<td>10</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>账户更多</td>
+				<td class="hoverTd"><a href="TestAccountMore.html">TestAccountMore</a></td>
+				<td>19</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>付款码</td>
+				<td class="hoverTd"><a href="TestPaymentCode.html">TestPaymentCode</a></td>
+				<td>9</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>				
+				<tr>
+				<td>服务</td>
+				<td class="hoverTd"><a href="TestAccountService.html">TestAccountService</a></td>
+				<td>13</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>提现</td>
+				<td class="hoverTd"><a href="TestWithdraw.html">TestWithdraw</a></td>
+				<td>14</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>	
+				<tr>
+				<td>财富</td>
+				<td class="hoverTd"><a href="TestFortune.html">TestFortune</a></td>
+				<td>6</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>默认支付方式</td>
+				<td class="hoverTd"><a href="TestNoPwdsetup.html">TestNoPwdsetup</a></td>
+				<td>9</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>银行卡管理</td>
+				<td class="hoverTd"><a href="TestBankCardManage.html">TestBankCardManage</a></td>
+				<td>18</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>修改支付密码</td>
+				<td class="hoverTd"><a href="TestChangePaymentPWD.html">TestChangePaymentPWD</a></td>
+				<td>8</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>修改登录密码</td>
+				<td class="hoverTd"><a href="TestChangeLoginPassword.html">TestChangeLoginPassword</a></td>
+				<td>8</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>充值</td>
+				<td class="hoverTd"><a href="TestRecharge.html">TestRecharge</a></td>
+				<td>6</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+			    <tr>
+				<td>添益宝</td>
+				<td class="hoverTd"><a href="TestTianYiBao.html">TestTianYiBao</a></td>
+				<td>13</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>还信用卡</td>
+				<td class="hoverTd"><a href="TestPayCreditCard.html">TestPayCreditCard</a></td>
+				<td>14</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+			
+				</table>
+				<div class="page"><div id="infogrid_length" class="dataTables_length"><div class="bottunDiv">
+							
+			</div>
+	</div>	
+	</body>
+</html>

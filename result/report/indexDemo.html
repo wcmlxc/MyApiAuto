@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>report</title>
+<style>
+
+body {
+    width: 100%;
+    margin: 40px auto;
+    font-family: 'trebuchet MS', 'Lucida sans', Arial;
+    font-size: 14px;
+    color: #444;
+}
+
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;    
+}
+
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;         
+}
+
+.bordered tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;    
+}
+
+.bordered th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+}
+
+.bordered td:first-child, .bordered th:first-child {
+    border-left: none;
+}
+
+.bordered th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.bordered th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+
+
+/*----------------------*/
+
+.zebra tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}
+
+/*.zebra th:hover {
+    background: #f5f5f5;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    */
+
+.zebra td, .zebra th {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;    
+}
+
+/*.zebra tbody tr:nth-child(even) {
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+}*/
+
+.zebra th {
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+    background-image:    -moz-linear-gradient(top, #f5f5f5, #eee);
+    background-image:     -ms-linear-gradient(top, #f5f5f5, #eee);
+    background-image:      -o-linear-gradient(top, #f5f5f5, #eee); 
+    background-image:         linear-gradient(top, #f5f5f5, #eee);
+}
+/*
+.zebra th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;  
+}
+
+.zebra th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.zebra th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}*/
+
+.zebra tfoot td {
+    border-bottom: 0;
+    border-top: 1px solid #fff;
+    background-color: #f1f1f1;  
+}
+
+.zebra tfoot td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.zebra tfoot td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.zebra tfoot td:only-child{
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+.myfont {
+	font-family:verdana;
+	font-size:120%;
+/*	background: #8B8B00;
+*/	color: #8B8B00;
+}
+</style>
+</head>
+<body>
+<h2>接口自动化测试平台</h2>
+<table class="bordered">
+    <thead>
+    <tr>
+	    <th scope="col" rowspan="1">项目名称</th>
+	    <th scope="col" rowspan="1">运行环境</th>
+	    <th scope="col" colspan="1">用例总数</th>
+        <th scope="col" colspan="1">接口总数</th>
+	    <th scope="col" rowspan="1">模块总数</th>
+	    <th scope="col" rowspan="1">用例总通过数</th>
+	    <th scope="col" colspan="1">用例总通过率</th>
+	    <th scope="col" rowspan="1">用例总失败数</th>
+	    <th scope="col" colspan="1">用例总失败率</th>
+        <th scope="col" colspan="1">平均响应时间(ms)</th>
+        <th scope="col" colspan="1">响应时间大于1000ms用例数</th>
+        <th scope="col" colspan="1">状态码不等于200用例数</th>
+	    <th scope="col" colspan="1">开始执行时间</th>
+	    <th scope="col" colspan="1">结束执行时间</th>
+	    <th scope="col" colspan="1">总执行时间</th>
+    </tr>
+    </thead>
+    <tr>
+        <td scope="col" id="appName">好玩星球</td>        
+        <td scope="col" id="environment">测试环境</td>
+        <td scope="col" id="totalApiCase">NA</td>
+        <td scope="col" id="totalApi">NA</td>
+        <td scope="col" id="totalModule">NA</td>
+        <td scope="col" id="totalApiPass">NA</td>
+        <td scope="col" id="totalApiPassRate">NA</td>
+        <td scope="col" id="totalApiFail">NA</td>
+        <td scope="col" id="totalApiFailRate">NA</td>
+        <td scope="col" id="totalAvgResTime">NA</td>
+        <td scope="col" id="totalResTimeOver1000">NA</td>
+        <td scope="col" id="totalStatusCodeError">NA</td>
+        <td scope="col" id="totalStartTime">NA</td>
+        <td scope="col" id="totalEndTime">NA</td>
+        <td scope="col" id="totalExcuteTime">NA</td>
+    </tr>        
+</table>
+<br><br>
+<h2>模块信息详情</h2>
+<table class="zebra">
+    <thead>
+	    <tr>
+	    	<th scope="col" rowspan="1">模块编号</th>
+		    <th scope="col" rowspan="1">模块名称</th>
+<!-- 		    <th scope="col" colspan="1">接口名称</th>
+		    <th scope="col" rowspan="1">用例描述</th> -->
+		    <th scope="col" colspan="1">模块总用例数</th>
+		    <th scope="col" rowspan="1">模块用例通过数</th>
+		    <th scope="col" rowspan="1">模块用例失败数</th>
+		    <th scope="col" colspan="1">模块用例通过率(%)</th>
+		    <th scope="col" rowspan="1">模块用例失败率(%)</th>
+		    <th scope="col" colspan="1">开始执行时间</th>
+		    <th scope="col" colspan="1">结束执行时间</th>
+		    <th scope="col" colspan="1">总执行时间</th>
+	    </tr>
+    </thead>
+	<tbody id="new_table">
+    	<tr>
+    		<td id="moduleNo">NA</td>
+            <td id="moduleName">NA</td>
+            <td><a id="caseAll" style="color:gray" href="http://www.baidu.com">NA</a></td>
+            <td><a id="casePass" style="color:gray" href="http://www.baidu.com">NA</a></td>
+            <td><a id="caseFail" style="color:gray" href="http://www.baidu.com">NA</a></td>
+            <td id="passRate">NA</td>
+            <td id="failRate">NA</td>
+            <td id="moduleStartTime">NA</td>
+            <td id="moduleEndTime">NA</td>
+            <td id="moduleTotalTime">NA</td>
+        </tr>
+    </tbody>
+<!--     <tfoot>
+	    <tr>
+	        <td>&nbsp;</td>        
+	        <td></td>
+	        <td></td>
+	    </tr>
+    </tfoot>  -->  
+</table>
+<br>
+</body>
+</html>
