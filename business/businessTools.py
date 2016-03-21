@@ -151,17 +151,17 @@ def replaceString(inputString):
         return inputString
 
 
-def dataPlus(data, list1):
+def dataPlus(data, myDict):
     '''实现字符串拼接'''
-    utils.logSave("打印入参data:" + str(data))
-    print "打印入参data:{}和入参类型:{}".format(data,type(data))
-    if data is None or data is "" or list1 is None or list1 is "":
-        utils.logSave("dataPlus传入参数data或list1为空","error")
+    utils.logSave("打印dataPlus入参data:" + str(data))
+    print "打印dataPlus入参data:{}和入参类型:{}".format(data,type(data))
+    if data is None or data is "" or myDict is None or myDict is "":
+        utils.logSave("dataPlus传入参数data或myDict为空","error")
         return ""
-    if not isinstance(list1, list):
-        utils.logSave("dataPlus传入参数list1不是数组","error")
+    if not isinstance(myDict, dict):
+        utils.logSave("dataPlus传入参数myDict不是字典","error")
         return ""
-    print "打印入参data:{}和入参类型:{}".format(data,type(data))
+    print "打印dataPlus入参data:{}和入参类型:{}".format(data,type(data))
     try:
         if isinstance(data, unicode):
             data = data.encode()
@@ -169,24 +169,15 @@ def dataPlus(data, list1):
             data = json.dumps(data)
         if isinstance(data, str):
             if re.search('^{.*}$',data):
-                for l in list1:
+                for l in myDict:
                     sql = 'SELECT ' + l +' FROM basic'
-                    print "sql:" + sql
                     strTemp = ',"' + str(l) + '":"' + str(fetchData(sql)) + '"}'
                     data = data[:-1] + strTemp
                 utils.logSave("打印出参data:" + str(data))
                 print "打印出参data:{}".format(data)
                 return data            
-            # elif re.search('[a-zA-Z]*=.*',data):
-            #     for l in list1:
-            #         sql = 'SELECT ' + l +' FROM basic'
-            #         strTemp = "&" + str(l) + "=" + str(fetchData(sql))
-            #         data = data + strTemp
-            #     utils.logSave("打印出参data:" + str(data))
-            #     print "打印出参data:{}".format(data)
-            #     return data
             else:
-                for l in list1:
+                for l in myDict:
                     sql = 'SELECT ' + l +' FROM basic'
                     strTemp = "&" + str(l) + "=" + str(fetchData(sql))
                     data = data + strTemp

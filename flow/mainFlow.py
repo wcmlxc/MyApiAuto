@@ -36,7 +36,7 @@ def tearDown():
 # 循环对每个sheet的每条用例进行请求操作
 # for rowNum in xrange(1, excel.getRows()):
 def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
-	utils.logSave('#'*10 + "开始执行用例：SHEET-" + str(sheet) + ";CASE-" + str(rowNum) +'#'*10)
+	utils.logSave('#'*10 + "开始执行用例--SHEET:" + str(sheet) + ";rowNum:" + str(rowNum) +'#'*10)
 
 	#创建实例
 	dc = dataCenter(apiTestCaseFilePath,sheet,rowNum)
@@ -46,6 +46,7 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 		utils.logSave("继续执行"*10)
 	elif dc.isNeedToRun == "no":
 		utils.logSave("不需要执行，跳过"*10)
+		utils.logSave('#'*10 + "结束执行用例--SHEET:" + str(sheet) + ";rowNum:" + str(rowNum) +'#'*10)
 		return 1
 
 	# # 导入公共参数
