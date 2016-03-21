@@ -67,3 +67,5 @@ beautifulSoup.main()
 
 #发送邮件
 #reportGenerate.main()
+# http://haowan.mmbang.com/item/default/view?_from_=search&item_id=13516&app_client_id=4&app_version=1.4.0&sid=9e8130966be17539f0cce15075ace455&sign=202d8b4482c15cb38c00360594c832cb
+# http://haowan.mmbang.com/item/default/view?_from_=search&app_client_id=1&app_version=1.4.0&channel=AppStore&device_id=f59f16f4da31a9ca5c90aa013bab0f2444147ab0&id=13515&isGetMore=0&lat=31.19957&lng=121.5823&os_version=8.4&screen_height=1334&screen_width=750&sid=2fd21638558a412f77db0d3bd87af5cc&sign=309b05b70dee8b692b570229b263d00a&time=1458291080.751800

@@ -137,7 +137,9 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 					r.append(expression_result)
 				#获取jsonpath的值（为一个list）
 				v = jsonpath.jsonpath(dc.res, expression_data)
-
+				if v is False:
+					dc.result = 4 #jsonpath没有找到结果
+					break
 				utils.logSave("EXCEL中数据转化得到的list结果:" + str(r))
 				utils.logSave("JSONPATH获取到的结果:" + str(v))
 				if utils.listContains(r,v):

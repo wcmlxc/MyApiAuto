@@ -25,6 +25,7 @@ class dataCenter(object):
 		super(dataCenter, self).__init__()
 		#读取每条case的各个字段并分别赋值
 		# 建立excel实例
+		print 111111111111111111111
 		self.excel = readExcel(apiTestCaseFilePath)
 		if config.isChooseList is True:
 			self.excel.setTableSheet_by_name(sheet)
@@ -44,17 +45,20 @@ class dataCenter(object):
 		self.data = self.excel.read(rowNum+1,10).encode("utf-8")
 		self.passObject = self.excel.read(rowNum+1,11).encode("utf-8")
 		self.checkData = self.excel.read(rowNum+1,12).encode("utf-8")
-		self.checkMode = str(self.excel.read(rowNum+1,13))
-		self.isNeedToRun = str(self.excel.read(rowNum+1,14)).lower()
+		self.checkMode = str(self.excel.read(rowNum+1,13)).replace(" ","")
+		self.isNeedToRun = str(self.excel.read(rowNum+1,14)).lower().replace(" ","")
+
+		self.fullurl = self.host + self.url
+		print self.host + self.url
+		print self.isNeedToRun
 		if self.isNeedToRun == "yes":
 			# 拼接url
-			self.fullurl = self.host + self.url
-
+			print "数据处理中心处理得到的fullurl:{}".format(self.fullurl)
 			# 进行参数透传的嵌套循环处理
 			self.fullurl = businessTools.replaceString(self.fullurl)
 			self.data = businessTools.replaceString(self.data)
 			self.checkData = businessTools.replaceString(self.checkData)
-
+			print "数据处理中心处理得到的fullurl:{}".format(self.fullurl)
 			# 导入公共参数
 			if isinstance(self.data, unicode):
 				self.data = self.data.encode()
@@ -64,7 +68,7 @@ class dataCenter(object):
 		elif self.isNeedToRun == "no":
 			pass
 
-
+		
 		print "数据处理中心处理得到的数据类型data:{}passObject:{}checkMode{}".format(type(self.data),type(self.passObject),type(self.checkMode))
 
 if __name__ == '__main__':
