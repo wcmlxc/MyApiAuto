@@ -68,10 +68,16 @@ class dataCenter(object):
 			if isinstance(self.data, unicode):
 				self.data = self.data.encode()
 			if isinstance(self.data, str):
-				self.data = businessTools.dataPlus(self.data,config.commonParam)
-				self.data = businessTools.dataPlus(self.data,{"sid":""})
+				self.skipList = []
+				for param in config.commonParam:
+					if re.search('^' + param + '\=',self.data) or re.search('\&' + param + '\=',self.data) or re.search('\"' + param + '\"\:',self.data):
+						self.skipList.append(param)
+				utils.logSave("skipList:" + str(self.skipList))
+				# self.skipList = ["app_client_id"]
+				self.data = businessTools.dataPlus(self.data, config.commonParam, self.skipList)
+				self.data = businessTools.dataPlus(self.data, {"sid":""})
 				businessTools.getSign(self.data)
-				self.data = businessTools.dataPlus(self.data,{"sign":""})
+				self.data = businessTools.dataPlus(self.data, {"sign":""})
 		elif self.isNeedToRun == "no":
 			utils.logSave("isNeedToRun为no，不需要执行")
 

@@ -151,7 +151,7 @@ def replaceString(inputString):
         return inputString
 
 
-def dataPlus(data, myDict):
+def dataPlus(data, myDict, skipList=[]):
     '''实现字符串拼接'''
     utils.logSave("打印dataPlus入参data:" + str(data))
     print "打印dataPlus入参data:{}和入参类型:{}".format(data,type(data))
@@ -160,6 +160,9 @@ def dataPlus(data, myDict):
         return ""
     if not isinstance(myDict, dict):
         utils.logSave("dataPlus传入参数myDict不是字典","error")
+        return ""
+    if not isinstance(skipList, list):
+        utils.logSave("dataPlus传入参数skipList不是list","error")
         return ""
     print "打印dataPlus入参data:{}和入参类型:{}".format(data,type(data))
     try:
@@ -170,6 +173,8 @@ def dataPlus(data, myDict):
         if isinstance(data, str):
             if re.search('^{.*}$',data):
                 for l in myDict:
+                    if l in skipList:
+                        continue
                     sql = 'SELECT ' + l +' FROM basic'
                     strTemp = ',"' + str(l) + '":"' + str(fetchData(sql)) + '"}'
                     data = data[:-1] + strTemp
@@ -178,6 +183,8 @@ def dataPlus(data, myDict):
                 return data            
             else:
                 for l in myDict:
+                    if l in skipList:
+                        continue
                     sql = 'SELECT ' + l +' FROM basic'
                     strTemp = "&" + str(l) + "=" + str(fetchData(sql))
                     data = data + strTemp

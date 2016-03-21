@@ -7,12 +7,14 @@ sys.setdefaultencoding('utf-8')
 sys.path.append("business")
 import logging
 import json
-
-unicodeString = u"报名未开始,敬请期待"
-print type(unicodeString)
-string = "报名未开始,敬请期待"
-print type(string)
-print unicodeString == string
+import re
+a = "app_version=1.3.0&id=13488"
+b = r'{"app_version":1}'
+print type(b)
+if re.search('^app_version\=',a) or re.search('\&app_version\=',a) or re.search('\"app_version\"\:',a):
+	print 1
+# if re.search('^|&' + 'app_version=',a):
+# 	print 12
 # unicodeString = u'{"order_status":0}'
 # print unicodeString
 # string = unicodeString.encode()
