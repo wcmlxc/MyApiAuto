@@ -21,10 +21,10 @@ import utils
 apiTestCaseFilePath = config.apiTestCaseFilePath
 
 class dataCenter(object):
-	"""docstring for dataCenter"""
+	"""docstring for dataCenter"""()
+
 	def __init__(self, apiTestCaseFilePath, sheet, rowNum):#rowNum为行数
-		super(dataCenter, self).__init__()
-		#读取每条case的各个字段并分别赋值
+		super(dataCenter, self).__init__		#读取每条case的各个字段并分别赋值
 		# 建立excel实例
 		self.excel = readExcel(apiTestCaseFilePath)
 		if config.isChooseList is True:
@@ -34,26 +34,25 @@ class dataCenter(object):
 			
 		self.rowNum = rowNum
 		self.testCaseNumber = int(self.excel.read(rowNum+1,1))
-		self.testCaseModule = str(self.excel.read(rowNum+1,2))
-		self.testCaseName = str(self.excel.read(rowNum+1,3))
-		self.apiName = str(self.excel.read(rowNum+1,4))
-		self.apiNotice = str(self.excel.read(rowNum+1,5))
-		self.testCaseLevel = str(self.excel.read(rowNum+1,6))
-		self.method = str(self.excel.read(rowNum+1,7)).lower()
-		self.host = str(self.excel.read(rowNum+1,8))
-		self.url = str(self.excel.read(rowNum+1,9))
-		self.data = self.excel.read(rowNum+1,10).encode("utf-8")
-		self.passObject = self.excel.read(rowNum+1,11).encode("utf-8")
-		self.checkData = self.excel.read(rowNum+1,12).encode("utf-8")
-		self.checkMode = str(self.excel.read(rowNum+1,13)).replace(" ","")
+		self.testCaseModule = str(self.excel.read(rowNum+1,2)).replace(" ","")
+		self.testCaseName = str(self.excel.read(rowNum+1,3)).replace(" ","")
+		self.apiName = str(self.excel.read(rowNum+1,4)).replace(" ","")
+		self.apiNotice = str(self.excel.read(rowNum+1,5)).replace(" ","")
+		self.testCaseLevel = str(self.excel.read(rowNum+1,6)).replace(" ","")
+		self.method = str(self.excel.read(rowNum+1,7)).lower().replace(" ","")
+		self.host = str(self.excel.read(rowNum+1,8)).replace(" ","")
+		self.url = str(self.excel.read(rowNum+1,9)).replace(" ","")
+		self.data = self.excel.read(rowNum+1,10).encode("utf-8").replace(" ","")
+		self.passObject = self.excel.read(rowNum+1,11).encode("utf-8").replace(" ","")
+		self.checkData = self.excel.read(rowNum+1,12).encode("utf-8").replace(" ","")
+		self.checkMode = str(self.excel.read(rowNum+1,13)).replace(" ","").replace(" ","")
 		self.isNeedToRun = str(self.excel.read(rowNum+1,14)).lower().replace(" ","")
+		# self.dependency = str(self.excel.read(rowNum+1,15)).encode("utf-8")
 
+		# print "dependency:" + self.dependency
 		self.fullurl = self.host + self.url
 		utils.logSave("fullurl为:" + self.fullurl)
 		utils.logSave("isNeedToRun为:" + self.isNeedToRun)
-
-		if self.fullurl is None or self.fullurl is "":
-			self.isNeedToRun = "no"
 
 		if self.isNeedToRun == "yes":
 			# 进行参数透传的嵌套循环处理
@@ -78,8 +77,8 @@ class dataCenter(object):
 				self.data = businessTools.dataPlus(self.data, {"sid":""})
 				businessTools.getSign(self.data)
 				self.data = businessTools.dataPlus(self.data, {"sign":""})
-		elif self.isNeedToRun == "no":
-			utils.logSave("isNeedToRun为no，不需要执行")
+		else:
+			utils.logSave("isNeedToRun为" + self.isNeedToRun + " ，不需要执行")
 
 		
 		print "数据处理中心处理得到的数据类型data:{}passObject:{}checkMode{}".format(type(self.data),type(self.passObject),type(self.checkMode))

@@ -1,341 +1,345 @@
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 创建结果收集表result...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:128 [ERROR]: 创建结果收集表result异常:table result already exists
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 创建公共请求参数表basic
-[Mon, 21 Mar 2016 17:48:28] utils.py line:128 [ERROR]: 创建公共请求参数表basic异常:table basic already exists
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sid字段开始
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:1;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:1;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:1;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:1;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:1;rowNum:3##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:1;rowNum:3##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:1;rowNum:4##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:1;rowNum:4##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:1;rowNum:5##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:1;rowNum:5##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:1;rowNum:6##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:yes
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: skipList:[]
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=13661962542&password=qq123456
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印出参data:mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印出参data:mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4&sid=
-[Mon, 21 Mar 2016 17:48:28] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): haowan.mmbang.com
-[Mon, 21 Mar 2016 17:48:28] connectionpool.py line:387 [DEBUG]: "GET /user/test/sign?mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4&sid= HTTP/1.1" 200 None
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: request pass
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 发送的URL:http://haowan.mmbang.com/user/test/sign?mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4&sid=
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'session \u8fc7\u671f', u'code': 1, u'data': None}
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4&sid=
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印出参data:mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4&sid=&sign=
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 请求方式为post,执行post方法
-[Mon, 21 Mar 2016 17:48:28] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): haowan.mmbang.com
-[Mon, 21 Mar 2016 17:48:28] connectionpool.py line:387 [DEBUG]: "POST /user/default/login?mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4&sid=&sign= HTTP/1.1" 200 None
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: request pass
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 请求的完整URL:http://haowan.mmbang.com/user/default/login?mobile=13661962542&password=qq123456&app_version=1.4.0&app_client_id=4&sid=&sign=
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'\u767b\u5f55\u6210\u529f', u'code': 0, u'data': {u'pkey': u'eec32488d74d0480', u'user_id': u'48746', u'score': 71.89, u'password_exists': True, u'mobile': u'13661962542', u'gender': u'3', u'region': None, u'nick_name': u'\u5468\u51ac\u5f6c\u5988\u5988\u5e2e', u'birthday': None, u'avatar': u'http://ddxq-shop.u.qiniudn.com/FlIUzatUbCt3_B5UomLjls0r2LQL?imageView2/1/w/150/h/150', u'sid': u'8b4980d8f251568e561a79a61bd6c704'}}
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 透传参数处理开始...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 透传参数打印:sid类型:<type 'str'>
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 透传参数为sid...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sid字段开始
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: sid:8b4980d8f251568e561a79a61bd6c704
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: passObjectValue:8b4980d8f251568e561a79a61bd6c704
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 透传参数处理结束...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 进入jsonpath模式
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[msg]":"登录成功","$[code]":0}
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'\u767b\u5f55\u6210\u529f']
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'\u767b\u5f55\u6210\u529f']
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[0]
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[0]
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 断言结果是:0
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 数据库插入数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 数据库插入数据正常
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-1;CASE-6##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:1;rowNum:7##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:1;rowNum:7##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:3##########
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: isNeedToRun为:yes
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: skipList:['app_version']
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印dataPlus入参data:{"id":13488,"app_version":"1.3.0"}
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印出参data:{"id":13488,"app_version":"1.3.0","app_client_id":"4"}
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印dataPlus入参data:{"id":13488,"app_version":"1.3.0","app_client_id":"4"}
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:28] utils.py line:122 [DEBUG]: 打印出参data:{"id":13488,"app_version":"1.3.0","app_client_id":"4","sid":"8b4980d8f251568e561a79a61bd6c704"}
-[Mon, 21 Mar 2016 17:48:28] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): haowan.mmbang.com
-[Mon, 21 Mar 2016 17:48:29] connectionpool.py line:387 [DEBUG]: "GET /user/test/sign?app_version=1.3.0&id=13488&app_client_id=4&sid=8b4980d8f251568e561a79a61bd6c704 HTTP/1.1" 200 None
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: request pass
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 发送的URL:http://haowan.mmbang.com/user/test/sign?app_version=1.3.0&id=13488&app_client_id=4&sid=8b4980d8f251568e561a79a61bd6c704
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.3.0&id=13488&private_key=eec32488d74d0480&sid=8b4980d8f251568e561a79a61bd6c704', u'sign_raw': u'5e648a9e3da3250504744154648ab1e9', u'sign': u'5e648a9e3da3250504744154648ab1e9'}}
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 打印dataPlus入参data:{"id":13488,"app_version":"1.3.0","app_client_id":"4","sid":"8b4980d8f251568e561a79a61bd6c704"}
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 打印出参data:{"id":13488,"app_version":"1.3.0","app_client_id":"4","sid":"8b4980d8f251568e561a79a61bd6c704","sign":"5e648a9e3da3250504744154648ab1e9"}
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 请求方式为get,执行get方法
-[Mon, 21 Mar 2016 17:48:29] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): haowan.mmbang.com
-[Mon, 21 Mar 2016 17:48:29] connectionpool.py line:387 [DEBUG]: "GET /item/default/view?app_version=1.3.0&sign=5e648a9e3da3250504744154648ab1e9&id=13488&app_client_id=4&sid=8b4980d8f251568e561a79a61bd6c704 HTTP/1.1" 200 None
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: request pass
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 请求的完整URL:http://haowan.mmbang.com/item/default/view?app_version=1.3.0&sign=5e648a9e3da3250504744154648ab1e9&id=13488&app_client_id=4&sid=8b4980d8f251568e561a79a61bd6c704
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'', u'code': 0, u'data': {u'recommend_items': [{u'cover': u'http://mmb-shop.qiniu.mmbang.info/fc22f13043ee081451531948277.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/12415', u'id': u'12415', u'name': u'\u666f\u9676\u9676\u827a\u4eb2\u5b50\u5957\u9910 \u53d8\u8eab\u5c0f\u5c0f\u9676\u827a\u5e08(\u666f\u9676\u5927\u534e\u5e97)'}, {u'cover': u'http://mmb-shop.qiniu.mmbang.info/fe9e3e441451458395010.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/12449', u'id': u'12449', u'name': u'\u997c\u5e72\u70d8\u7119+\u5de7\u514b\u529bDIY\u4eb2\u5b50\u5957\u9910'}, {u'cover': u'http://mmb-shop.qiniu.mmbang.info/103934d31451546227976.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/12463', u'id': u'12463', u'name': u'\u7ea6\u65e6\u738b\u56fd\u795e\u5947\u7684\u74f6\u4e2d\u6c99\u753b \u74f6\u5b50\u91cc\u7684\u6c99\u753b\u827a\u672f'}, {u'cover': u'http://mmb-shop.qiniu.mmbang.info/32a4d3781452333083202.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/12539', u'id': u'12539', u'name': u'\u6cb9\u753bDIY\u4eb2\u5b50\u5957\u9910 \u4e0b\u4e00\u4e2a\u6cb9\u753b\u5927\u5e08\u5c31\u662f\u4f60'}], u'service_support': [], u'age_range_desc': u'\u6d4b\u8bd5\u53ef\u62a5\u540d\u975e\u552e\u5356\u6d3b\u52a8\u672a\u5f00', u'mom_comments': {u'comments_score': 5, u'items': [], u'title': u'\u5988\u5988\u79c0', u'more_params': {u'item_id': u'13488', u'page': 2}, u'comments_count': u'0', u'is_more': False}, u'is_need_identity': 0, u'ticket': None, u'apply_url': u'http://haowan.mmbang.com/item/default/sigup?item_id=13488&user_id=48746&user_name=&app_client_id=4&app_version=1.3.0&csig=97265e23883e84408f5ce065f47a9b7e', u'button_status_text': u'\u62a5\u540d\u672a\u5f00\u59cb\uff0c\u656c\u8bf7\u671f\u5f85', u'is_favorite': 0, u'buy_notice_view': u'http://haowan.mmbang.com/item/default/buyNoticeView?id=13488&csig=9570c465b8691110377d8fdf5a368cce', u'images': [u'http://mmb-shop.qiniu.mmbang.info/3e4bb4721458205699512.jpg?imageView2/1/w/480/h/240'], u'consult_count': 0, u'lng': 0, u'circum_facility': [1, 2, 3], u'sale_num_str': u'\u5df2\u62a5\u540d0', u'thumb': u'http://mmb-shop.qiniu.mmbang.info/ba3834eb1458205711246.jpg', u'id': u'13488', u'rebate_info': u'', u'sub_title': u'\u6d4b\u8bd5\u53ef\u62a5\u540d\u975e\u552e\u5356\u6d3b\u52a8\u672a\u5f00', u'is_virtual': 1, u'item_remark': u'\u6d4b\u8bd5\u53ef\u62a5\u540d\u975e\u552e\u5356\u6d3b\u52a8\u672a\u5f00\u59cb\u5546\u54c1', u'has_nav': True, u'is_show_button': 1, u'sale_price': u'0.00', u'consult_list': [], u'status': 1, u'tickets': None, u'is_app_recommend': 0, u'comment_rebate_price': 0, u'is_show_price': 0, u'share': {u'url': u'http://haowan.mmbang.com/wap/item/view?id=13488&s_from=appshare', u'title': u'\u597d\u73a9\u661f\u7403 - \u6d4b\u8bd5\u53ef\u62a5\u540d\u975e\u552e\u5356\u6d3b\u52a8\u672a\u5f00\u59cb\u5546\u54c1', u'thumb': u'http://mmb-shop.qiniu.mmbang.info/ba3834eb1458205711246.jpg?imageView2/1/w/150/h/150', u'desc': u'\u6d4b\u8bd5\u53ef\u62a5\u540d\u975e\u552e\u5356\u6d3b\u52a8\u672a\u5f00\u59cb\u5546\u54c1'}, u'carriage_price': u'0.00', u'join_status': 1, u'address': u'\u78a7\u6ce2\u8def690\u53f72\u53f7\u697c302\u5ba4', u'lat': 0, u'merchant_info': {u'id': u'55', u'name': u'YS-\u5f00\u53d1\u6d4b\u8bd5\u5546\u6237'}, u'service_phone': u'4006162722', u'distance': u'', u'tour_note': {u'total_count': u'0', u'items': [], u'title': u'\u5988\u5988\u6e38\u8bb0'}, u'name': u'\u6d4b\u8bd5\u53ef\u62a5\u540d\u975e\u552e\u5356\u6d3b\u52a8\u672a\u5f00\u59cb\u5546\u54c1', u'comments_score': 5, u'origin_price': u'0.00', u'recommend_view': u'http://haowan.mmbang.com/item/default/recommend?id=13488&csig=9570c465b8691110377d8fdf5a368cce', u'comments_count': u'0', u'content_view': u'http://haowan.mmbang.com/item/default/content?id=13488&csig=9570c465b8691110377d8fdf5a368cce', u'app_recommend_txt': u'APP\n\u63a8\u8350', u'shipping_fee': u'0.00', u'sale_num': 0, u'rebate_price': 0}}
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 透传参数处理开始...
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 透传参数打印:类型:<type 'str'>
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 透传参数为空...
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: passObjectValue:
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 透传参数处理结束...
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 进入jsonpath模式
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$.data.status":1,"$.data.join_status":1,"$.data.is_show_button":1,"$.data.button_status_text":"报名未开始，敬请期待"}
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'\u62a5\u540d\u672a\u5f00\u59cb\uff0c\u656c\u8bf7\u671f\u5f85']
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'\u62a5\u540d\u672a\u5f00\u59cb\uff0c\u656c\u8bf7\u671f\u5f85']
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[1]
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[1]
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[1]
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[1]
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[1]
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[1]
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 断言结果是:0
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 数据库插入数据...
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 数据库插入数据正常
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-2;CASE-3##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:4##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:4##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:5##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:5##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:6##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:6##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:7##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:7##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:8##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:8##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:9##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:9##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:10##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:10##########
-[Mon, 21 Mar 2016 17:48:29] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:11##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:11##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:12##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:12##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:13##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:13##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:14##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:14##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:15##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:15##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:16##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:16##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:17##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:17##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:18##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:18##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:19##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:19##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:20##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:20##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:21##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:21##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:2;rowNum:22##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/item/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:2;rowNum:22##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:3;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:3;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:3;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:3;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:3;rowNum:3##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:3;rowNum:3##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:3;rowNum:4##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:3;rowNum:4##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:3;rowNum:5##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:3;rowNum:5##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:4;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/order/default/submit
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:4;rowNum:1##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:4;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/order/default/view
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:4;rowNum:2##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:4;rowNum:3##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/order/default/list
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:4;rowNum:3##########
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 更新数据sid字段开始
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 111
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 渲染报告开始
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 读取文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\indexDemo.html
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 打开文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 开始写入文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 关闭文件
-[Mon, 21 Mar 2016 17:48:30] utils.py line:122 [DEBUG]: 渲染报告结束
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:47] utils.py line:128 [ERROR]: no such table: result
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 创建结果收集表result...
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 创建结果收集表result正常
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 创建公共请求参数表basic
+[Thu, 24 Mar 2016 16:00:47] utils.py line:128 [ERROR]: 创建公共请求参数表basic异常:table basic already exists
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 更新数据sid字段开始
+[Thu, 24 Mar 2016 16:00:47] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
+[Thu, 24 Mar 2016 16:00:48] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:1##########
+[Thu, 24 Mar 2016 16:00:48] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
+[Thu, 24 Mar 2016 16:00:48] utils.py line:122 [DEBUG]: isNeedToRun为:no
+[Thu, 24 Mar 2016 16:00:48] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
+[Thu, 24 Mar 2016 16:00:48] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
+[Thu, 24 Mar 2016 16:00:48] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:1##########
+[Thu, 24 Mar 2016 16:00:48] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:2##########
+[Thu, 24 Mar 2016 16:00:49] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
+[Thu, 24 Mar 2016 16:00:49] utils.py line:122 [DEBUG]: isNeedToRun为:no
+[Thu, 24 Mar 2016 16:00:49] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
+[Thu, 24 Mar 2016 16:00:49] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
+[Thu, 24 Mar 2016 16:00:49] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:2##########
+[Thu, 24 Mar 2016 16:00:49] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:3##########
+[Thu, 24 Mar 2016 16:00:50] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
+[Thu, 24 Mar 2016 16:00:50] utils.py line:122 [DEBUG]: isNeedToRun为:no
+[Thu, 24 Mar 2016 16:00:50] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
+[Thu, 24 Mar 2016 16:00:50] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
+[Thu, 24 Mar 2016 16:00:50] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:3##########
+[Thu, 24 Mar 2016 16:00:50] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:4##########
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: isNeedToRun为:no
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:4##########
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:5##########
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: isNeedToRun为:no
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: isNeedToRun为no，不需要执行
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:5##########
+[Thu, 24 Mar 2016 16:00:51] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:6##########
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/user/default/login
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/user/default/login
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: skipList:[]
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
+[Thu, 24 Mar 2016 16:00:52] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:52] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/user/test/sign?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid= HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'session \u8fc7\u671f', u'code': 1, u'data': None}
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign=
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 请求方式为post,执行post方法
+[Thu, 24 Mar 2016 16:00:52] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:52] connectionpool.py line:387 [DEBUG]: "POST http://master.shop.mmbang.net/user/default/login?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign= HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/user/default/login?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign=
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'\u767b\u5f55\u6210\u529f', u'code': 0, u'data': {u'pkey': u'9c17b82865687b23', u'user_id': u'214', u'score': 99999.99, u'password_exists': True, u'mobile': u'18000000000', u'gender': u'3', u'region': None, u'nick_name': u'\u63a5\u53e3\u6d4b\u8bd5', u'birthday': None, u'avatar': u'http://ddxq-shop.u.qiniudn.com/FgudnJ2Xb7Udh00dum1Unn7tD_Jj?imageView2/1/w/150/h/150', u'sid': u'ec515a3a2218c1e2dab6f3e30f055e8b'}}
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 透传参数打印:sid类型:<type 'str'>
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 透传参数为sid...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 更新数据sid字段开始
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: sid:ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: passObjectValue:ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[msg]":"登录成功","$[code]":0}
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'\u767b\u5f55\u6210\u529f']
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'\u767b\u5f55\u6210\u529f']
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[0]
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[0]
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 断言结果是:0
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 数据库插入数据...
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-登录;CASE-6##########
+[Thu, 24 Mar 2016 16:00:52] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:下单流程;rowNum:1##########
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/item/default/view
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/item/default/view
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: skipList:[]
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 打印dataPlus入参data:id=10212
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 打印出参data:id=10212&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 打印dataPlus入参data:id=10212&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 打印出参data:id=10212&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:53] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:53] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/user/test/sign?id=10212&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?id=10212&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.4.0&id=10212&private_key=9c17b82865687b23&sid=ec515a3a2218c1e2dab6f3e30f055e8b', u'sign_raw': u'5d0e71f0b2d3cdf626493a360e230b4b', u'sign': u'5d0e71f0b2d3cdf626493a360e230b4b'}}
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 打印dataPlus入参data:id=10212&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 打印出参data:id=10212&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=5d0e71f0b2d3cdf626493a360e230b4b
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 请求方式为get,执行get方法
+[Thu, 24 Mar 2016 16:00:53] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:53] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/item/default/view?id=10212&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=5d0e71f0b2d3cdf626493a360e230b4b HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/item/default/view?id=10212&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=5d0e71f0b2d3cdf626493a360e230b4b
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'', u'code': 0, u'data': {u'recommend_items': [{u'cover': u'http://mmb-shop.qiniu.mmbang.info/2783becf1453801856714.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/10188', u'id': u'10188', u'name': u'\u6d4b\u8bd5\u5957\u991003'}, {u'cover': u'http://mmb-shop.qiniu.mmbang.info/d5db533b1453804902393.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/10189', u'id': u'10189', u'name': u'\u5b9e\u4f53\u796820160126'}, {u'cover': u'http://mmb-shop.qiniu.mmbang.info/ab91842f1453945697495.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/10192', u'id': u'10192', u'name': u'\u53ef\u552e\u5356-\u7535\u5b50\u7968-\u5355\u89c4\u683c\uff08\u52ff\u4fee\u6539\uff09'}, {u'cover': u'http://mmb-shop.qiniu.mmbang.info/077d7d3c1453947547674.jpg?imageView2/1/w/480/h/240', u'link': u'com.iyaya.haowan://app/shop/item/10196', u'id': u'10196', u'name': u'\u65e5\u5386\u53ef\u552e\u5356-\u7535\u5b50\u7968\uff08\u52ff\u4fee\u6539\uff09'}], u'service_support': [{u'name': u'\u65e0\u9690\u5f62\u6d88\u8d39', u'desc': u'\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39\u900f\u660e\u6d88\u8d39'}, {u'name': u'\u8d35\u5c31\u8d54', u'desc': u'\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54\u8d35\u5c31\u8d54'}, {u'name': u'\u5168\u7f51\u6700\u4f4e', u'desc': u'123123'}, {u'name': u'\u514d\u8d39\u505c\u8f66', u'desc': u'\u514d\u8d39\u505c\u8f66\u4ecb\u7ecd'}, {u'name': u'\u514d\u8d39wifi', u'desc': u'\u514d\u8d39wifi\u514d\u8d39wifi\u514d\u8d39wifi\u514d\u8d39wifi'}, {u'name': u'\u5feb\u901f\u5165\u56ed', u'desc': u'\u5feb\u901f\u5165\u56ed'}, {u'name': u'\u4fdd\u8bc1\u5165\u56ed', u'desc': u'\u4fdd\u8bc1\u5165\u56ed'}, {u'name': u'\u9760\u8c31', u'desc': u'\u9760\u8c31\u7684\u5546\u6237'}], u'age_range_desc': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u7968', u'mom_comments': {u'comments_score': 5, u'items': [], u'title': u'\u5988\u5988\u79c0', u'more_params': {u'item_id': u'10212', u'page': 2}, u'comments_count': u'0', u'is_more': False}, u'is_need_identity': 1, u'ticket': {u'status': u'1', u'stock_num': 9996, u'name': u'\u63a5\u53e3\u81ea\u52a8\u5316\u6d4b\u8bd5\u4e13\u7528', u'item_limit_buy': 0, u'st_id_1': u'0', u'st_id_3': u'0', u'st_id_2': u'0', u'st_id_4': u'0', u'comment_rebate_price': u'\u4e0b\u5355\u8fd4\uffe55', u'total_stock': 9996, u'fridgecode': u'111111111111', u'comment_rebate_price_value': 0, u'limit_buy_num': 0, u'sale_price': 0.01, u'rebate_price': 5, u'origin_price': 100, u'id': u'1957', u'cost_price': u'20.00'}, u'apply_url': u'', u'button_status_text': u'', u'is_favorite': 0, u'buy_notice_view': u'http://master.shop.mmbang.net/item/default/buyNoticeView?id=10212&csig=09869e22b5e006d37433c81566a65fcc', u'images': [u'http://mmb-shop.qiniu.mmbang.info/6a480bb1458785179352.jpg?imageView2/1/w/480/h/240', u'http://mmb-shop.qiniu.mmbang.info/e575af4e1458785187897.jpg?imageView2/1/w/480/h/240', u'http://mmb-shop.qiniu.mmbang.info/ba3ff2041458785190483.jpg?imageView2/1/w/480/h/240'], u'consult_count': 0, u'lng': 121.578888, u'circum_facility': [1, 2, 3], u'sale_num_str': u'\u5df2\u552e104\u4ef6', u'thumb': u'http://mmb-shop.qiniu.mmbang.info/8032e6871458785193704.jpg', u'id': u'10212', u'rebate_info': u'\u4e0b\u5355\u53ef\u8fd45.00\u5143', u'sub_title': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u7968', u'is_virtual': 1, u'item_remark': u'\u5468\u516d&\u5468\u65e5\uff1a10:00~21:00', u'has_nav': True, u'is_show_button': 1, u'sale_price': u'0.01', u'consult_list': [], u'status': 1, u'tickets': None, u'is_app_recommend': 0, u'comment_rebate_price': 0, u'is_show_price': 1, u'share': {u'url': u'http://master.shop.mmbang.net/wap/item/view?id=10212&s_from=appshare', u'title': u'\u597d\u73a9\u661f\u7403 - \u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u796801', u'thumb': u'http://mmb-shop.qiniu.mmbang.info/8032e6871458785193704.jpg?imageView2/1/w/150/h/150', u'desc': u'\u5566\u5566\u5566\u5566\u5566\u5566\u5566\u5566\u5566\u5566\u5566\u5566'}, u'carriage_price': u'0.00', u'join_status': 2, u'address': u'\u5eb7\u6865\u8def1558\u5f041\u53f7\u697c', u'lat': 31.148729, u'merchant_info': {u'id': u'73', u'name': u'\u63a5\u53e3\u81ea\u52a8\u5316\u6d4b\u8bd501'}, u'service_phone': u'4006162722', u'distance': u'', u'tour_note': {u'total_count': u'0', u'items': [], u'title': u'\u5988\u5988\u6e38\u8bb0'}, u'name': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u796801', u'comments_score': 5, u'origin_price': u'100.00', u'recommend_view': u'http://master.shop.mmbang.net/item/default/recommend?id=10212&csig=09869e22b5e006d37433c81566a65fcc', u'comments_count': u'0', u'content_view': u'http://master.shop.mmbang.net/item/default/content?id=10212&csig=09869e22b5e006d37433c81566a65fcc', u'app_recommend_txt': u'APP\n\u63a8\u8350', u'shipping_fee': u'0.00', u'sale_num': 104, u'rebate_price': u'5.00'}}
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 透传参数打印:类型:<type 'str'>
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 透传参数为空...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: passObjectValue:
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[code]":0,"$.data.sale_price":"0.01"}
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'0.01']
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'0.01']
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[0]
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[0]
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 断言结果是:0
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 数据库插入数据...
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[Thu, 24 Mar 2016 16:00:53] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-下单流程;CASE-1##########
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:下单流程;rowNum:2##########
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/order/default/submit
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/order/default/submit
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: skipList:[]
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 打印dataPlus入参data:item_id=10212&ticket_info=[{"tid":"1957","num":1}]&mobile=18000000000&consignee=12
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 打印出参data:item_id=10212&ticket_info=[{"tid":"1957","num":1}]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 打印dataPlus入参data:item_id=10212&ticket_info=[{"tid":"1957","num":1}]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 打印出参data:item_id=10212&ticket_info=[{"tid":"1957","num":1}]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:54] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:54] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/user/test/sign?item_id=10212&ticket_info=[%7B%22tid%22:%221957%22,%22num%22:1%7D]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?item_id=10212&ticket_info=[%7B%22tid%22:%221957%22,%22num%22:1%7D]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.4.0&consignee=12&item_id=10212&mobile=18000000000&private_key=9c17b82865687b23&sid=ec515a3a2218c1e2dab6f3e30f055e8b&ticket_info=[{"tid":"1957","num":1}]', u'sign_raw': u'de337783ebd35a313732bed6d9c09020', u'sign': u'de337783ebd35a313732bed6d9c09020'}}
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 打印dataPlus入参data:item_id=10212&ticket_info=[{"tid":"1957","num":1}]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 打印出参data:item_id=10212&ticket_info=[{"tid":"1957","num":1}]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=de337783ebd35a313732bed6d9c09020
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[Thu, 24 Mar 2016 16:00:54] utils.py line:122 [DEBUG]: 请求方式为post,执行post方法
+[Thu, 24 Mar 2016 16:00:54] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:55] connectionpool.py line:387 [DEBUG]: "POST http://master.shop.mmbang.net/order/default/submit?item_id=10212&ticket_info=[%7B%22tid%22:%221957%22,%22num%22:1%7D]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=de337783ebd35a313732bed6d9c09020 HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/order/default/submit?item_id=10212&ticket_info=[%7B%22tid%22:%221957%22,%22num%22:1%7D]&mobile=18000000000&consignee=12&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=de337783ebd35a313732bed6d9c09020
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'', u'code': 0, u'data': {u'order_id': u'QT7206672425184'}}
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 透传参数打印:order_id类型:<type 'str'>
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 透传参数为其他值（非sid）...
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: passObjectValue:QT7206672425184
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[code]":0}
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[0]
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[0]
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 断言结果是:0
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 数据库插入数据...
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-下单流程;CASE-2##########
+[Thu, 24 Mar 2016 16:00:55] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:下单流程;rowNum:3##########
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/order/default/list
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/order/default/list
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: skipList:[]
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 打印dataPlus入参data:order_status=1
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 打印出参data:order_status=1&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 打印dataPlus入参data:order_status=1&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 打印出参data:order_status=1&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:56] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:56] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/user/test/sign?order_status=1&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?order_status=1&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.4.0&order_status=1&private_key=9c17b82865687b23&sid=ec515a3a2218c1e2dab6f3e30f055e8b', u'sign_raw': u'0e9d283f8170d54e69b549fd0c8b2a20', u'sign': u'0e9d283f8170d54e69b549fd0c8b2a20'}}
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 打印dataPlus入参data:order_status=1&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 打印出参data:order_status=1&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=0e9d283f8170d54e69b549fd0c8b2a20
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 请求方式为get,执行get方法
+[Thu, 24 Mar 2016 16:00:56] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:56] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/order/default/list?order_status=1&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=0e9d283f8170d54e69b549fd0c8b2a20 HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/order/default/list?order_status=1&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=0e9d283f8170d54e69b549fd0c8b2a20
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'', u'code': 0, u'data': {u'more_params': {u'order_status': 1, u'create_time': u'1458804931'}, u'data': [{u'status': 1, u'total_price': 0.01, u'order_id': u'QT7206672425184', u'order_desc': u'', u'is_virtual': 1, u'item_name': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u796801', u'is_need_images': False, u'status_text': u'\u5f85\u652f\u4ed8', u'pay_status': 0, u'operate': {u'right': 1, u'left': 0}}, {u'status': 1, u'total_price': 0.01, u'order_id': u'QT7206608026094', u'order_desc': u'', u'is_virtual': 1, u'item_name': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u796801', u'is_need_images': False, u'status_text': u'\u5f85\u652f\u4ed8', u'pay_status': 0, u'operate': {u'right': 1, u'left': 0}}, {u'status': 1, u'total_price': 0.01, u'order_id': u'QT7206625113011', u'order_desc': u'', u'is_virtual': 1, u'item_name': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u796801', u'is_need_images': False, u'status_text': u'\u5f85\u652f\u4ed8', u'pay_status': 0, u'operate': {u'right': 1, u'left': 0}}, {u'status': 1, u'total_price': 0.01, u'order_id': u'QT7206673785681', u'order_desc': u'', u'is_virtual': 1, u'item_name': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u796801', u'is_need_images': False, u'status_text': u'\u5f85\u652f\u4ed8', u'pay_status': 0, u'operate': {u'right': 1, u'left': 0}}], u'is_more': False}}
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 透传参数打印:类型:<type 'str'>
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 透传参数为空...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: passObjectValue:
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[code]":0,"$.data.data[*].order_id":"QT7206672425184"}
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'QT7206672425184']
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'QT7206672425184', u'QT7206608026094', u'QT7206625113011', u'QT7206673785681']
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[0]
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[0]
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 断言结果是:0
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 数据库插入数据...
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-下单流程;CASE-3##########
+[Thu, 24 Mar 2016 16:00:56] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:下单流程;rowNum:4##########
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/order/default/AppPayUrl
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/order/default/AppPayUrl
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: skipList:[]
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 打印dataPlus入参data:pay_type=1&score=0.01
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 打印出参data:pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 打印dataPlus入参data:pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 打印出参data:pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:57] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:57] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/user/test/sign?pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.4.0&pay_type=1&private_key=9c17b82865687b23&score=0.01&sid=ec515a3a2218c1e2dab6f3e30f055e8b', u'sign_raw': u'68206349c8c6297374c2e721b4a0abc0', u'sign': u'68206349c8c6297374c2e721b4a0abc0'}}
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 打印dataPlus入参data:pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 打印出参data:pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=68206349c8c6297374c2e721b4a0abc0
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 请求方式为get,执行get方法
+[Thu, 24 Mar 2016 16:00:57] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:57] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/order/default/AppPayUrl?pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=68206349c8c6297374c2e721b4a0abc0 HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/order/default/AppPayUrl?pay_type=1&score=0.01&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=68206349c8c6297374c2e721b4a0abc0
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'\u7528\u6237\u8ba2\u5355\u4fe1\u606f\u9519\u8bef', u'code': 1, u'data': None}
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 透传参数打印:类型:<type 'str'>
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 透传参数为空...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: passObjectValue:
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[code]":0,"$.data.msg":"恭喜您已支付成功--candy"}
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 断言结果是:4
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 数据库插入数据...
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-下单流程;CASE-4##########
+[Thu, 24 Mar 2016 16:00:57] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:下单流程;rowNum:5##########
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/order/default/list
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/order/default/list
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: skipList:[]
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打印dataPlus入参data:order_status=3
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打印出参data:order_status=3&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打印dataPlus入参data:order_status=3&app_version=1.4.0&app_client_id=4
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打印出参data:order_status=3&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:58] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:58] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/user/test/sign?order_status=3&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?order_status=3&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.4.0&order_status=3&private_key=9c17b82865687b23&sid=ec515a3a2218c1e2dab6f3e30f055e8b', u'sign_raw': u'dff704a74e6d1d4da9aaa821f35c10cf', u'sign': u'dff704a74e6d1d4da9aaa821f35c10cf'}}
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打印dataPlus入参data:order_status=3&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打印出参data:order_status=3&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=dff704a74e6d1d4da9aaa821f35c10cf
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 请求方式为get,执行get方法
+[Thu, 24 Mar 2016 16:00:58] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): 127.0.0.1
+[Thu, 24 Mar 2016 16:00:58] connectionpool.py line:387 [DEBUG]: "GET http://master.shop.mmbang.net/order/default/list?order_status=3&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=dff704a74e6d1d4da9aaa821f35c10cf HTTP/1.1" 200 None
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: request pass
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/order/default/list?order_status=3&app_version=1.4.0&app_client_id=4&sid=ec515a3a2218c1e2dab6f3e30f055e8b&sign=dff704a74e6d1d4da9aaa821f35c10cf
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'', u'code': 0, u'data': {u'more_params': {u'order_status': 3, u'create_time': u'1458801037'}, u'data': [{u'status': 3, u'total_price': 0, u'order_id': u'QT7206646683031', u'order_desc': u'', u'is_virtual': 1, u'item_name': u'\u63a5\u53e3\u81ea\u52a8\u5316-\u8fd4\u70b9-\u7535\u5b50\u796801', u'is_need_images': False, u'status_text': u'\u5df2\u53d1\u8d27', u'pay_status': 1, u'extra_operate': {u'webview_url': u'http://master.shop.mmbang.net/order/act/shareCoupon?oid=QT7206646683031', u'title': u'\u53d1\u7ea2\u5305'}, u'operate': {u'right': 3, u'left': -1}}], u'is_more': False}}
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 透传参数打印:类型:<type 'str'>
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 透传参数为空...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: passObjectValue:
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[code]":0,"$.data.data[*].order_id":"QT7206672425184"}
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'QT7206672425184']
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'QT7206646683031']
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 断言结果是:3
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 数据库插入数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-下单流程;CASE-5##########
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 更新数据sid字段开始
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 111
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 渲染报告开始
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 读取文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\indexDemo.html
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 打开文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 开始写入文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 关闭文件
+[Thu, 24 Mar 2016 16:00:58] utils.py line:122 [DEBUG]: 渲染报告结束

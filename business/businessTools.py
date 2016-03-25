@@ -250,7 +250,7 @@ def getSign(data):
         if re.search('^{.*}$',data):
             data = json.loads(data)
     print data
-    fullurl = "http://haowan.mmbang.com/user/test/sign"
+    fullurl = "http://master.shop.mmbang.net/user/test/sign"
     req = requestApi(fullurl,data)
     req.get()
     utils.logSave("发送的URL:" + str(req.getUrl()))
