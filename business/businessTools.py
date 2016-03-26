@@ -264,7 +264,7 @@ def getSign(data):
 def dataProcess(inputData,myType,exceptionResult):
     if isinstance(inputData,unicode):
         inputData = inputData.encode('utf-8')
-    if isinstance(inputData,myType):
+    if isinstance(inputData,myType) and inputData is not "":
         if myType == str:
             inputData = myStrip(inputData)
             return inputData
@@ -274,7 +274,7 @@ def dataProcess(inputData,myType,exceptionResult):
         return inputData
 
 def myStrip(myString):
-    print type(myString)
+    # print type(myString)
     if isinstance(myString, unicode):
         myString = myString.encode('utf-8')
 
@@ -282,7 +282,7 @@ def myStrip(myString):
         result = myString.replace(' ','').replace('\t','').replace('\r','').replace('\n','')
     else:
         result = myString
-    print type(result)
+    # print type(result)
     return result
 
 def test_myStrip():

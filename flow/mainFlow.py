@@ -44,11 +44,12 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	#判断是否执行
 	if dc.isNeedToRun == "yes":
 		utils.logSave("继续执行"*10)
+		print 222222
 	elif dc.isNeedToRun == "no":
 		utils.logSave("不需要执行，跳过"*10)
 		utils.logSave('#'*10 + "结束执行用例--SHEET:" + str(sheet) + ";rowNum:" + str(rowNum) +'#'*10)
 		return 1
-
+		print 111111
 	# # 导入公共参数
 	# dc.data = businessTools.dataPlus(dc.data,config.commonParam)
 	# businessTools.getSign(dc.data)
@@ -67,7 +68,7 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	elif dc.method == "post":
 		utils.logSave("请求方式为post,执行post方法")
 		dc.req.post()
-
+	print dc.method
 	#打印完整URL
 	utils.logSave("请求的完整URL:" + str(dc.req.getUrl()))
 	#获取json返回
