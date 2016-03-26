@@ -14,7 +14,6 @@ from testSQL import doSql
 import sqliteHandler
 import utils
 from readExcel import readExcel
-
 import time
 import os
 import json
@@ -250,7 +249,8 @@ def getSign(data):
         if re.search('^{.*}$',data):
             data = json.loads(data)
     print data
-    fullurl = "http://master.shop.mmbang.net/user/test/sign"
+    fullurl = config.getSingUrl
+    #fullurl = "http://master.shop.mmbang.net/user/test/sign"
     req = requestApi(fullurl,data)
     req.get()
     utils.logSave("发送的URL:" + str(req.getUrl()))
@@ -261,8 +261,39 @@ def getSign(data):
     updateSign(result)
     #return result
 
+def dataProcess(inputData,myType,exceptionResult):
+    if isinstance(inputData,unicode):
+        inputData = inputData.encode('utf-8')
+    if isinstance(inputData,myType):
+        if myType == str:
+            inputData = myStrip(inputData)
+            return inputData
+        return inputData
+    else:
+        inputData = exceptionResult
+        return inputData
 
+def myStrip(myString):
+    print type(myString)
+    if isinstance(myString, unicode):
+        myString = myString.encode('utf-8')
 
+    if isinstance(myString, str):
+        result = myString.replace(' ','').replace('\t','').replace('\r','').replace('\n','')
+    else:
+        result = myString
+    print type(result)
+    return result
+
+def test_myStrip():
+    string1 = '**  NN\tMM\rOO PP\nLL **'
+    string2 = u'**  NN\tMM\rOO PP\nLL **'
+    string3 = []
+    string4 = {"key":"value"}
+    print myStrip(string1)
+    print myStrip(string2)
+    print myStrip(string3)
+    print myStrip(string4)
 
 def test_returnValue():
     json = {u'msg': u'\u767b\u5f55\u6210\u529f', u'code': 0, u'data': {u'pkey': u'3dfbee7c57232f47', u'user_id': u'48746', u'score': 71.89, u'password_exists': True, u'mobile': u'13661962542', u'gender': u'3', u'region': None, u'nick_name': u'\u5468\u51ac\u5f6c\u5988\u5988\u5e2e', u'birthday': None, u'avatar': u'http://ddxq-shop.u.qiniudn.com/FlIUzatUbCt3_B5UomLjls0r2LQL?imageView2/1/w/150/h/150', u'sid': u'b17e45704a84deb611730c6aaf389b3c'}}
