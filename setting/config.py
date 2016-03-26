@@ -37,8 +37,8 @@ mailto_list=["zhoudongbin@mmbang.net"]
 ############################################################################################
 #获取sign接口的地址
 ############################################################################################
-hostUrl = "http://master.shop.mmbang.net"
-getSingUrl = hostUrl + "/user/test/sign"
+host = "http://master.shop.mmbang.net"
+getSingUrl = host + "/user/test/sign"
 
 
 #获取main.py入口程序的目录的上级目录，也就是根目录
