@@ -46,9 +46,9 @@ class dataCenter(object):
 		self.fullurl = self.host + self.url
 		utils.logSave("fullurl为:" + self.fullurl)
 
-		self.data = businessTools.dataProcess(self.excel.read(rowNum+1,10),str,"{}")
-		self.passObject = businessTools.dataProcess(self.excel.read(rowNum+1,11),str,"{}")
-		self.checkData = businessTools.dataProcess(self.excel.read(rowNum+1,12),str,"{}")
+		self.data = businessTools.dataProcess(self.excel.read(rowNum+1,10),str,"")
+		self.passObject = businessTools.dataProcess(self.excel.read(rowNum+1,11),str,"")
+		self.checkData = businessTools.dataProcess(self.excel.read(rowNum+1,12),str,"")
 
 		self.checkMode = businessTools.dataProcess(self.excel.read(rowNum+1,13),str,"noMode")
 		self.isNeedToRun = businessTools.dataProcess(self.excel.read(rowNum+1,14),str,"no").lower()
@@ -76,6 +76,7 @@ class dataCenter(object):
 						self.skipList.append(param)
 				utils.logSave("skipList:" + str(self.skipList))
 				# self.skipList = ["app_client_id"]
+				utils.logSave("self.data:" + str(self.data))
 				self.data = businessTools.dataPlus(self.data, config.commonParam, self.skipList)
 				self.data = businessTools.dataPlus(self.data, {"sid":""})
 				businessTools.getSign(self.data)

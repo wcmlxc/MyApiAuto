@@ -154,9 +154,9 @@ def dataPlus(data, myDict, skipList=[]):
     '''实现字符串拼接'''
     utils.logSave("打印dataPlus入参data:" + str(data))
     print "打印dataPlus入参data:{}和入参类型:{}".format(data,type(data))
-    if data is None or data is "" or myDict is None or myDict is "":
-        utils.logSave("dataPlus传入参数data或myDict为空","error")
-        return ""
+    # if data is None or data is "" or myDict is None or myDict is "":
+    #     utils.logSave("dataPlus传入参数data或myDict为空","error")
+    #     return ""
     if not isinstance(myDict, dict):
         utils.logSave("dataPlus传入参数myDict不是字典","error")
         return ""
@@ -179,7 +179,18 @@ def dataPlus(data, myDict, skipList=[]):
                     data = data[:-1] + strTemp
                 utils.logSave("打印出参data:" + str(data))
                 print "打印出参data:{}".format(data)
-                return data            
+                return data
+            elif data is "" or data is None:
+                for l in myDict:
+                    if l in skipList:
+                        continue
+                    sql = 'SELECT ' + l +' FROM basic'
+                    strTemp = str(l) + "=" + str(fetchData(sql)) + "&"
+                    data = data + strTemp
+                utils.logSave("打印出参data:" + str(data))
+                data = data[:-1]                
+                print "打印出参data:{}".format(data)
+                return data
             else:
                 for l in myDict:
                     if l in skipList:

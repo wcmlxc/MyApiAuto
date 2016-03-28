@@ -9,6 +9,9 @@ import logging
 import json
 import re
 
+# data1 = "app_version=1.4.0&app_client_id=4&"
+# print data1[:-1]
+
 # def myStrip(myString):
 #     print type(myString)
 #     if isinstance(myString, unicode):
