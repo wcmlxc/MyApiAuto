@@ -8,7 +8,8 @@ sys.path.append("business")
 import logging
 import json
 import re
-
+import datetime
+print datetime.datetime.now()
 # data1 = "app_version=1.4.0&app_client_id=4&"
 # print data1[:-1]
 

@@ -10,7 +10,7 @@ sys.path.append("../setting")
 import config
 import time
 import logging
-# import datetime
+import datetime
 import os
 # import simplejson
 
@@ -115,7 +115,7 @@ def logSave(msg, level="debug"):
         logging.basicConfig(
                         level=logging.DEBUG,
                         format='[%(asctime)s] %(filename)s line:%(lineno)d [%(levelname)s]: %(message)s',
-                        datefmt='%a, %d %b %Y %H:%M:%S',
+                        #datefmt='%a, %d %b %Y %H:%M:%S',
                         filename=config.logFilePath,
                         filemode='a')
         if level.lower() == "debug":
@@ -128,7 +128,7 @@ def logSave(msg, level="debug"):
             logging.error(msg)
         else:
             logging.debug(msg)
-    print msg
+    print "[" + str(datetime.datetime.now()) + "]"+ msg
 # def timeToTimestamp():
 #     d=datetime.datetime.strptime(s,"%Y-%m-%d %H:%M:%S")
 #     return time.mktime(d.timetuple())

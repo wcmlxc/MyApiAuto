@@ -26,12 +26,17 @@ class dataCenter(object):
 	def __init__(self, apiTestCaseFilePath, sheet, rowNum):#rowNum为行数
 		super(dataCenter, self).__init__		
 		# 建立excel实例
+		utils.logSave("开始创建excel实例")
 		self.excel = readExcel(apiTestCaseFilePath)
+		utils.logSave("结束创建excel实例")
+		
 		if config.isChooseList is True:
 			self.excel.setTableSheet_by_name(sheet)
 		elif config.isChooseList is False:
 			self.excel.setTableSheet(sheet)
-			
+
+		utils.logSave("开始创建属性")
+
 		self.rowNum = rowNum
 		self.testCaseNumber = businessTools.dataProcess(self.excel.read(rowNum+1,1),int,0)
 		self.testCaseModule = businessTools.dataProcess(self.excel.read(rowNum+1,2),str,"")

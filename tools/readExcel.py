@@ -9,13 +9,17 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 sys.path.append("../setting")
 import config
+import datetime
 
 class readExcel(object):
 	"""docstring for ClassName"""
 	def __init__(self, excelFile):
 		super(readExcel, self).__init__()
+		# print "[" + str(datetime.datetime.now()) + "]"+ "11"
 		self.excelFile = excelFile
+		# print "[" + str(datetime.datetime.now()) + "]"+ "22"
 		self.data = xlrd.open_workbook(excelFile)
+		# print "[" + str(datetime.datetime.now()) + "]"+ "33"
 		# self.table = self.data.sheets()[tableSheet-1]
 
 
