@@ -17,6 +17,11 @@ print datetime.datetime.now()
 time.sleep(1.0)
 
 print datetime.datetime.now()
+
+mystring = "正常登录"
+sql = "SELECT result FROM result where testCaseName=" + "'" + mystring + "'" + " and buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1)"
+print sql
+
 # data1 = "app_version=1.4.0&app_client_id=4&"
 # print data1[:-1]
 

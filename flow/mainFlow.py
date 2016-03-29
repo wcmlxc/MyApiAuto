@@ -42,6 +42,23 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	#创建实例
 	dc = dataCenter(apiTestCaseFilePath,sheet,rowNum)
 
+	if dc.isNeedToRun == "yes":
+		if len(dc.dependency) > 0:
+			print len(dc.dependency)
+			if businessTools.getResultFromTestCaseName(dc.dependency) == 0:
+				print businessTools.getResultFromTestCaseName(dc.dependency)
+				print "dependency pass and set isNeedToRun yes"
+				dc.isNeedToRun = "yes"
+			else:
+				print "dependency fail and set isNeedToRun no"
+				dc.isNeedToRun = "no"
+				# dc.passObjectValue = ""
+				# dc.result = 
+				# dc.msg = ""
+				# dc.responseTime = 0
+				# dc.statusCode = 
+				# businessTools.insertTable(dc.testCaseNumber,dc.testCaseModule,dc.testCaseName,dc.apiName,dc.apiNotice,dc.testCaseLevel,dc.method,dc.host,dc.url,str(dc.data),dc.passObject,dc.passObjectValue,dc.checkMode,dc.result,dc.msg,dc.responseTime,dc.statusCode,buildTimes)
+
 	#判断是否执行
 	if dc.isNeedToRun == "yes":
 		utils.logSave("继续执行"*10)

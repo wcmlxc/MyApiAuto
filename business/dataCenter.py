@@ -61,8 +61,8 @@ class dataCenter(object):
 		utils.logSave("isNeedToRun为:" + self.isNeedToRun)
 		self.sleepTime = businessTools.dataProcess(self.excel.read(rowNum+1,15),float,0)
 		utils.logSave("sleepTime:" + str(self.sleepTime))
-		# self.dependency = str(self.excel.read(rowNum+1,15)).encode("utf-8")
-
+		self.dependency = businessTools.dataProcess(self.excel.read(rowNum+1,16),str,"")
+		utils.logSave("dependency:" + str(self.dependency))
 
 
 		if self.isNeedToRun == "yes":
@@ -76,7 +76,7 @@ class dataCenter(object):
 
 			# 导入公共参数
 			if isinstance(self.data, unicode):
-				self.data = self.data.encode()
+				self.data = self.data.encode('utf-8')
 			if isinstance(self.data, str):
 				self.skipList = []
 				for param in config.commonParam:

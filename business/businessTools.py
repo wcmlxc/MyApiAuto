@@ -253,6 +253,10 @@ def returnValue(json, passObject):
             return returnValue(json[d],passObject)
     return ""
 
+def getResultFromTestCaseName(mystring):
+    sql = "SELECT result FROM result where testCaseName=" + "'" + mystring + "'" + " and buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1)"
+    return fetchData(sql)
+
 def getSign(data):
     if data is None or data is "":
         data = ""
@@ -265,7 +269,7 @@ def getSign(data):
     req = requestApi(fullurl,data)
     req.get()
     utils.logSave("发送的URL:" + str(req.getUrl()))
-    print "1111发送的URL:{}".format(req.getUrl())
+    print "发送的URL:{}".format(req.getUrl())
     utils.logSave("获取到的返回报文:" + str(req.getJson()))
     print "获取到的返回报文:{}".format(req.getJson())
     result = returnValue(req.getJson(),"sign")
