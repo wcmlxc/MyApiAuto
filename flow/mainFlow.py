@@ -20,6 +20,7 @@ from dataCenter import dataCenter
 import reportGenerate
 import beautifulSoup
 import os
+import time
 
 def setUp():
 	# 建立数据库表result和basic（如果没有的话）
@@ -44,16 +45,15 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	#判断是否执行
 	if dc.isNeedToRun == "yes":
 		utils.logSave("继续执行"*10)
-		print 222222
 	elif dc.isNeedToRun == "no":
 		utils.logSave("不需要执行，跳过"*10)
 		utils.logSave('#'*10 + "结束执行用例--SHEET:" + str(sheet) + ";rowNum:" + str(rowNum) +'#'*10)
 		return 1
-		print 111111
-	# # 导入公共参数
-	# dc.data = businessTools.dataPlus(dc.data,config.commonParam)
-	# businessTools.getSign(dc.data)
-	# dc.data = businessTools.dataPlus(dc.data,["sign"])
+
+	#执行睡眠时间
+	if isinstance(dc.sleepTime,float) or isinstance(dc.sleepTime,int):
+		time.sleep(dc.sleepTime)
+		utils.logSave("执行睡眠时间：" + str(dc.sleepTime))
 
 	if isinstance(dc.data,str):
 	    if re.search('^{.*}$',dc.data):

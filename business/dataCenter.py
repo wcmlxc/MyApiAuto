@@ -38,7 +38,8 @@ class dataCenter(object):
 		utils.logSave("开始创建属性")
 
 		self.rowNum = rowNum
-		self.testCaseNumber = businessTools.dataProcess(self.excel.read(rowNum+1,1),int,0)
+		self.testCaseNumber = businessTools.dataProcess(self.excel.read(rowNum+1,1),float,0)
+		utils.logSave("testCaseNumber:" + str(self.testCaseNumber))
 		self.testCaseModule = businessTools.dataProcess(self.excel.read(rowNum+1,2),str,"")
 		self.testCaseName = businessTools.dataProcess(self.excel.read(rowNum+1,3),str,"")
 		self.apiName = businessTools.dataProcess(self.excel.read(rowNum+1,4),str,"")
@@ -58,6 +59,8 @@ class dataCenter(object):
 		self.checkMode = businessTools.dataProcess(self.excel.read(rowNum+1,13),str,"noMode")
 		self.isNeedToRun = businessTools.dataProcess(self.excel.read(rowNum+1,14),str,"no").lower()
 		utils.logSave("isNeedToRun为:" + self.isNeedToRun)
+		self.sleepTime = businessTools.dataProcess(self.excel.read(rowNum+1,15),float,0)
+		utils.logSave("sleepTime:" + str(self.sleepTime))
 		# self.dependency = str(self.excel.read(rowNum+1,15)).encode("utf-8")
 
 

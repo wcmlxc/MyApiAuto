@@ -1,188 +1,140 @@
-[2016-03-28 19:55:58,417] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:55:58,417] utils.py line:122 [DEBUG]: 创建结果收集表result...
-[2016-03-28 19:55:58,417] utils.py line:128 [ERROR]: 创建结果收集表result异常:table result already exists
-[2016-03-28 19:55:58,417] utils.py line:122 [DEBUG]: 创建公共请求参数表basic
-[2016-03-28 19:55:58,417] utils.py line:128 [ERROR]: 创建公共请求参数表basic异常:table basic already exists
-[2016-03-28 19:55:58,417] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[2016-03-28 19:55:58,463] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[2016-03-28 19:55:58,463] utils.py line:122 [DEBUG]: 更新数据sid字段开始
-[2016-03-28 19:55:58,494] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
-[2016-03-28 19:55:59,246] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:1##########
-[2016-03-28 19:55:59,246] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: isNeedToRun为no ，不需要执行
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:1##########
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:2##########
-[2016-03-28 19:55:59,948] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: isNeedToRun为no ，不需要执行
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:2##########
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:3##########
-[2016-03-28 19:56:00,667] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: isNeedToRun为no ，不需要执行
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:3##########
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:4##########
-[2016-03-28 19:56:01,387] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: isNeedToRun为no ，不需要执行
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:4##########
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:5##########
-[2016-03-28 19:56:02,092] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: isNeedToRun为no ，不需要执行
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:5##########
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:6##########
-[2016-03-28 19:56:02,811] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/user/default/login
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: isNeedToRun为:yes
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/user/default/login
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: skipList:[]
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: self.data:mobile=18000000000&password=123456
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:03,513] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
-[2016-03-28 19:56:03,528] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): master.shop.mmbang.net
-[2016-03-28 19:56:03,562] connectionpool.py line:387 [DEBUG]: "GET /user/test/sign?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid= HTTP/1.1" 200 None
-[2016-03-28 19:56:03,562] utils.py line:122 [DEBUG]: request pass
-[2016-03-28 19:56:03,562] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
-[2016-03-28 19:56:03,562] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'session \u8fc7\u671f', u'code': 1, u'data': None}
-[2016-03-28 19:56:03,562] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[2016-03-28 19:56:03,608] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[2016-03-28 19:56:03,608] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
-[2016-03-28 19:56:03,608] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:03,608] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign=
-[2016-03-28 19:56:03,608] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
-[2016-03-28 19:56:03,608] utils.py line:122 [DEBUG]: 请求方式为post,执行post方法
-[2016-03-28 19:56:03,608] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): master.shop.mmbang.net
-[2016-03-28 19:56:03,654] connectionpool.py line:387 [DEBUG]: "POST /user/default/login?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign= HTTP/1.1" 200 None
-[2016-03-28 19:56:03,654] utils.py line:122 [DEBUG]: request pass
-[2016-03-28 19:56:03,654] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/user/default/login?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign=
-[2016-03-28 19:56:03,654] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'\u767b\u5f55\u6210\u529f', u'code': 0, u'data': {u'pkey': u'ed62d3a2b18e2074', u'user_id': u'214', u'score': 99999.81, u'password_exists': True, u'mobile': u'18000000000', u'gender': u'3', u'region': None, u'nick_name': u'\u63a5\u53e3\u6d4b\u8bd5', u'birthday': None, u'avatar': u'http://ddxq-shop.u.qiniudn.com/FgudnJ2Xb7Udh00dum1Unn7tD_Jj?imageView2/1/w/150/h/150', u'sid': u'4d4314f0743d696f628621391b884013'}}
-[2016-03-28 19:56:03,654] utils.py line:122 [DEBUG]: 透传参数处理开始...
-[2016-03-28 19:56:03,671] utils.py line:122 [DEBUG]: 透传参数打印:sid类型:<type 'str'>
-[2016-03-28 19:56:03,671] utils.py line:122 [DEBUG]: 透传参数为sid...
-[2016-03-28 19:56:03,671] utils.py line:122 [DEBUG]: 更新数据sid字段开始
-[2016-03-28 19:56:03,701] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: sid:4d4314f0743d696f628621391b884013
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: passObjectValue:4d4314f0743d696f628621391b884013
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: 透传参数处理结束...
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: 进入jsonpath模式
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[msg]":"登录成功","$[code]":0}
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'\u767b\u5f55\u6210\u529f']
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'\u767b\u5f55\u6210\u529f']
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[0]
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[0]
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: 断言结果是:0
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
-[2016-03-28 19:56:03,717] utils.py line:122 [DEBUG]: 数据库插入数据...
-[2016-03-28 19:56:03,765] utils.py line:122 [DEBUG]: 数据库插入数据正常
-[2016-03-28 19:56:03,765] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
-[2016-03-28 19:56:03,765] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[2016-03-28 19:56:03,793] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[2016-03-28 19:56:03,809] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-登录;CASE-6##########
-[2016-03-28 19:56:03,809] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:7##########
-[2016-03-28 19:56:03,809] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: fullurl为:
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: isNeedToRun为:no
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: isNeedToRun为no ，不需要执行
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: 不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过不需要执行，跳过
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: ##########结束执行用例--SHEET:登录;rowNum:7##########
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:8##########
-[2016-03-28 19:56:04,542] utils.py line:122 [DEBUG]: 开始创建excel实例
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 结束创建excel实例
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 开始创建属性
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: isNeedToRun为:yes
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://haowan.mmbang.com/user/default/login
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: skipList:[]
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: self.data:
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 打印dataPlus入参data:
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 打印出参data:app_version=1.4.0&app_client_id=4&
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 打印dataPlus入参data:app_version=1.4.0&app_client_id=4
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,262] utils.py line:122 [DEBUG]: 打印出参data:app_version=1.4.0&app_client_id=4&sid=4d4314f0743d696f628621391b884013
-[2016-03-28 19:56:05,262] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): master.shop.mmbang.net
-[2016-03-28 19:56:05,292] connectionpool.py line:387 [DEBUG]: "GET /user/test/sign?app_version=1.4.0&app_client_id=4&sid=4d4314f0743d696f628621391b884013 HTTP/1.1" 200 None
-[2016-03-28 19:56:05,292] utils.py line:122 [DEBUG]: request pass
-[2016-03-28 19:56:05,292] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?app_version=1.4.0&app_client_id=4&sid=4d4314f0743d696f628621391b884013
-[2016-03-28 19:56:05,292] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.4.0&private_key=ed62d3a2b18e2074&sid=4d4314f0743d696f628621391b884013', u'sign_raw': u'798f3181fa94cce639cba8a58b2ebef1', u'sign': u'798f3181fa94cce639cba8a58b2ebef1'}}
-[2016-03-28 19:56:05,292] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[2016-03-28 19:56:05,341] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[2016-03-28 19:56:05,341] utils.py line:122 [DEBUG]: 打印dataPlus入参data:app_version=1.4.0&app_client_id=4&sid=4d4314f0743d696f628621391b884013
-[2016-03-28 19:56:05,341] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,357] utils.py line:122 [DEBUG]: 打印出参data:app_version=1.4.0&app_client_id=4&sid=4d4314f0743d696f628621391b884013&sign=798f3181fa94cce639cba8a58b2ebef1
-[2016-03-28 19:56:05,357] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
-[2016-03-28 19:56:05,357] utils.py line:122 [DEBUG]: 请求方式为post,执行post方法
-[2016-03-28 19:56:05,357] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): haowan.mmbang.com
-[2016-03-28 19:56:05,434] connectionpool.py line:387 [DEBUG]: "POST /user/default/login?app_version=1.4.0&app_client_id=4&sid=4d4314f0743d696f628621391b884013&sign=798f3181fa94cce639cba8a58b2ebef1 HTTP/1.1" 200 None
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: request pass
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 请求的完整URL:http://haowan.mmbang.com/user/default/login?app_version=1.4.0&app_client_id=4&sid=4d4314f0743d696f628621391b884013&sign=798f3181fa94cce639cba8a58b2ebef1
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'\u8be5\u624b\u673a\u53f7\u672a\u6ce8\u518c\uff5e', u'code': 1, u'data': None}
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 透传参数处理开始...
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 透传参数打印:类型:<type 'str'>
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 透传参数为空...
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: passObjectValue:
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 透传参数处理结束...
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 进入jsonpath模式
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[msg]":"登录成功","$[code]":0}
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'\u767b\u5f55\u6210\u529f']
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'\u8be5\u624b\u673a\u53f7\u672a\u6ce8\u518c\uff5e']
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 断言结果是:0
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
-[2016-03-28 19:56:05,434] utils.py line:122 [DEBUG]: 数据库插入数据...
-[2016-03-28 19:56:05,482] utils.py line:122 [DEBUG]: 数据库插入数据正常
-[2016-03-28 19:56:05,482] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
-[2016-03-28 19:56:05,482] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[2016-03-28 19:56:05,528] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[2016-03-28 19:56:05,528] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-登录;CASE-8##########
-[2016-03-28 19:56:05,528] utils.py line:122 [DEBUG]: 更新数据sign字段开始
-[2016-03-28 19:56:05,562] utils.py line:122 [DEBUG]: 更新数据sign字段成功
-[2016-03-28 19:56:05,562] utils.py line:122 [DEBUG]: 更新数据sid字段开始
-[2016-03-28 19:56:05,592] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
-[2016-03-28 19:56:05,592] utils.py line:122 [DEBUG]: 111
-[2016-03-28 19:56:05,592] utils.py line:122 [DEBUG]: 渲染报告开始
-[2016-03-28 19:56:05,592] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,592] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,592] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,608] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,608] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,608] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,608] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,608] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,608] utils.py line:122 [DEBUG]: 查询一条精确数据...
-[2016-03-28 19:56:05,608] utils.py line:122 [DEBUG]: 读取文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\indexDemo.html
-[2016-03-28 19:56:05,624] utils.py line:122 [DEBUG]: 打开文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
-[2016-03-28 19:56:05,624] utils.py line:122 [DEBUG]: 开始写入文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
-[2016-03-28 19:56:05,624] utils.py line:122 [DEBUG]: 关闭文件
-[2016-03-28 19:56:05,624] utils.py line:122 [DEBUG]: 渲染报告结束
+[2016-03-29 19:23:45,316] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:45,316] utils.py line:122 [DEBUG]: 创建结果收集表result...
+[2016-03-29 19:23:45,316] utils.py line:128 [ERROR]: 创建结果收集表result异常:table result already exists
+[2016-03-29 19:23:45,316] utils.py line:122 [DEBUG]: 创建公共请求参数表basic
+[2016-03-29 19:23:45,316] utils.py line:128 [ERROR]: 创建公共请求参数表basic异常:table basic already exists
+[2016-03-29 19:23:45,316] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[2016-03-29 19:23:45,380] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[2016-03-29 19:23:45,380] utils.py line:122 [DEBUG]: 更新数据sid字段开始
+[2016-03-29 19:23:45,427] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
+[2016-03-29 19:23:46,144] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:1##########
+[2016-03-29 19:23:46,144] utils.py line:122 [DEBUG]: 开始创建excel实例
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 结束创建excel实例
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 开始创建属性
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: testCaseNumber:6.0
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: fullurl为:http://master.shop.mmbang.net/user/default/login
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: sleepTime:10.0
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://master.shop.mmbang.net/user/default/login
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: skipList:[]
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: self.data:mobile=18000000000&password=123456
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:46,845] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
+[2016-03-29 19:23:46,861] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): master.shop.mmbang.net
+[2016-03-29 19:23:46,892] connectionpool.py line:387 [DEBUG]: "GET /user/test/sign?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid= HTTP/1.1" 200 None
+[2016-03-29 19:23:46,892] utils.py line:122 [DEBUG]: request pass
+[2016-03-29 19:23:46,892] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
+[2016-03-29 19:23:46,892] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'session \u8fc7\u671f', u'code': 1, u'data': None}
+[2016-03-29 19:23:46,892] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[2016-03-29 19:23:46,940] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[2016-03-29 19:23:46,940] utils.py line:122 [DEBUG]: 打印dataPlus入参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=
+[2016-03-29 19:23:46,940] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:46,954] utils.py line:122 [DEBUG]: 打印出参data:mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign=
+[2016-03-29 19:23:46,954] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[2016-03-29 19:23:56,970] utils.py line:122 [DEBUG]: 执行睡眠时间：10.0
+[2016-03-29 19:23:56,970] utils.py line:122 [DEBUG]: 请求方式为post,执行post方法
+[2016-03-29 19:23:56,970] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): master.shop.mmbang.net
+[2016-03-29 19:23:57,079] connectionpool.py line:387 [DEBUG]: "POST /user/default/login?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign= HTTP/1.1" 200 None
+[2016-03-29 19:23:57,079] utils.py line:122 [DEBUG]: request pass
+[2016-03-29 19:23:57,079] utils.py line:122 [DEBUG]: 请求的完整URL:http://master.shop.mmbang.net/user/default/login?mobile=18000000000&password=123456&app_version=1.4.0&app_client_id=4&sid=&sign=
+[2016-03-29 19:23:57,079] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'\u767b\u5f55\u6210\u529f', u'code': 0, u'data': {u'pkey': u'20ee32f1d778abbb', u'user_id': u'214', u'score': 99999.81, u'password_exists': True, u'mobile': u'18000000000', u'gender': u'3', u'region': None, u'nick_name': u'\u63a5\u53e3\u6d4b\u8bd5', u'birthday': None, u'avatar': u'http://ddxq-shop.u.qiniudn.com/FgudnJ2Xb7Udh00dum1Unn7tD_Jj?imageView2/1/w/150/h/150', u'sid': u'b6202e56077395962e04bdb9c27f1ee6'}}
+[2016-03-29 19:23:57,079] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[2016-03-29 19:23:57,079] utils.py line:122 [DEBUG]: 透传参数打印:sid类型:<type 'str'>
+[2016-03-29 19:23:57,079] utils.py line:122 [DEBUG]: 透传参数为sid...
+[2016-03-29 19:23:57,079] utils.py line:122 [DEBUG]: 更新数据sid字段开始
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: sid:b6202e56077395962e04bdb9c27f1ee6
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: passObjectValue:b6202e56077395962e04bdb9c27f1ee6
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[msg]":"登录成功","$[code]":0}
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'\u767b\u5f55\u6210\u529f']
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'\u767b\u5f55\u6210\u529f']
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[0]
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[0]
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: 断言结果是:0
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[2016-03-29 19:23:57,127] utils.py line:122 [DEBUG]: 数据库插入数据...
+[2016-03-29 19:23:57,173] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[2016-03-29 19:23:57,173] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[2016-03-29 19:23:57,173] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[2016-03-29 19:23:57,204] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[2016-03-29 19:23:57,204] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-登录;CASE-1##########
+[2016-03-29 19:23:57,204] utils.py line:122 [DEBUG]: ##########开始执行用例--SHEET:登录;rowNum:2##########
+[2016-03-29 19:23:57,204] utils.py line:122 [DEBUG]: 开始创建excel实例
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 结束创建excel实例
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 开始创建属性
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: testCaseNumber:5.0
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: fullurl为:http://haowan.mmbang.com/user/default/login
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: isNeedToRun为:yes
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: sleepTime:10.0
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 透传处理得到的fullurl为:http://haowan.mmbang.com/user/default/login
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: skipList:[]
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: self.data:
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 打印dataPlus入参data:
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 打印出参data:app_version=1.4.0&app_client_id=4&
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 打印dataPlus入参data:app_version=1.4.0&app_client_id=4
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:57,907] utils.py line:122 [DEBUG]: 打印出参data:app_version=1.4.0&app_client_id=4&sid=b6202e56077395962e04bdb9c27f1ee6
+[2016-03-29 19:23:57,907] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): master.shop.mmbang.net
+[2016-03-29 19:23:57,937] connectionpool.py line:387 [DEBUG]: "GET /user/test/sign?app_version=1.4.0&app_client_id=4&sid=b6202e56077395962e04bdb9c27f1ee6 HTTP/1.1" 200 None
+[2016-03-29 19:23:57,937] utils.py line:122 [DEBUG]: request pass
+[2016-03-29 19:23:57,937] utils.py line:122 [DEBUG]: 发送的URL:http://master.shop.mmbang.net/user/test/sign?app_version=1.4.0&app_client_id=4&sid=b6202e56077395962e04bdb9c27f1ee6
+[2016-03-29 19:23:57,937] utils.py line:122 [DEBUG]: 获取到的返回报文:{u'msg': u'', u'code': 0, u'data': {u'raw': u'app_client_id=4&app_version=1.4.0&private_key=20ee32f1d778abbb&sid=b6202e56077395962e04bdb9c27f1ee6', u'sign_raw': u'afdfbc0c90f40b06da458bb10d69646a', u'sign': u'afdfbc0c90f40b06da458bb10d69646a'}}
+[2016-03-29 19:23:57,937] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[2016-03-29 19:23:57,984] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[2016-03-29 19:23:57,984] utils.py line:122 [DEBUG]: 打印dataPlus入参data:app_version=1.4.0&app_client_id=4&sid=b6202e56077395962e04bdb9c27f1ee6
+[2016-03-29 19:23:57,984] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:23:58,000] utils.py line:122 [DEBUG]: 打印出参data:app_version=1.4.0&app_client_id=4&sid=b6202e56077395962e04bdb9c27f1ee6&sign=afdfbc0c90f40b06da458bb10d69646a
+[2016-03-29 19:23:58,000] utils.py line:122 [DEBUG]: 继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行继续执行
+[2016-03-29 19:24:08,006] utils.py line:122 [DEBUG]: 执行睡眠时间：10.0
+[2016-03-29 19:24:08,006] utils.py line:122 [DEBUG]: 请求方式为post,执行post方法
+[2016-03-29 19:24:08,006] connectionpool.py line:207 [INFO]: Starting new HTTP connection (1): haowan.mmbang.com
+[2016-03-29 19:24:08,084] connectionpool.py line:387 [DEBUG]: "POST /user/default/login?app_version=1.4.0&app_client_id=4&sid=b6202e56077395962e04bdb9c27f1ee6&sign=afdfbc0c90f40b06da458bb10d69646a HTTP/1.1" 200 None
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: request pass
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 请求的完整URL:http://haowan.mmbang.com/user/default/login?app_version=1.4.0&app_client_id=4&sid=b6202e56077395962e04bdb9c27f1ee6&sign=afdfbc0c90f40b06da458bb10d69646a
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 获取到的response:{u'msg': u'\u8be5\u624b\u673a\u53f7\u672a\u6ce8\u518c\uff5e', u'code': 1, u'data': None}
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 透传参数处理开始...
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 透传参数打印:类型:<type 'str'>
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 透传参数为空...
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: passObjectValue:
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 透传参数处理结束...
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 进入jsonpath模式
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: 打印excel里面的字典:{"$[msg]":"登录成功","$[code]":0}
+[2016-03-29 19:24:08,084] utils.py line:122 [DEBUG]: EXCEL中数据转化得到的list结果:[u'\u767b\u5f55\u6210\u529f']
+[2016-03-29 19:24:08,098] utils.py line:122 [DEBUG]: JSONPATH获取到的结果:[u'\u8be5\u624b\u673a\u53f7\u672a\u6ce8\u518c\uff5e']
+[2016-03-29 19:24:08,098] utils.py line:122 [DEBUG]: 断言结果是:0
+[2016-03-29 19:24:08,098] utils.py line:122 [DEBUG]: 把请求数据和请求结果录入数据库
+[2016-03-29 19:24:08,098] utils.py line:122 [DEBUG]: 数据库插入数据...
+[2016-03-29 19:24:08,161] utils.py line:122 [DEBUG]: 数据库插入数据正常
+[2016-03-29 19:24:08,161] utils.py line:122 [DEBUG]: 清空basic表中的sign值，防止影响后面的测试
+[2016-03-29 19:24:08,161] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[2016-03-29 19:24:08,209] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[2016-03-29 19:24:08,209] utils.py line:122 [DEBUG]: ##########结束执行用例：SHEET-登录;CASE-2##########
+[2016-03-29 19:24:08,209] utils.py line:122 [DEBUG]: 更新数据sign字段开始
+[2016-03-29 19:24:08,255] utils.py line:122 [DEBUG]: 更新数据sign字段成功
+[2016-03-29 19:24:08,255] utils.py line:122 [DEBUG]: 更新数据sid字段开始
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 数据库sid字段更新成功
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 111
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 渲染报告开始
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,302] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,318] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,318] utils.py line:122 [DEBUG]: 查询一条精确数据...
+[2016-03-29 19:24:08,318] utils.py line:122 [DEBUG]: 读取文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\indexDemo.html
+[2016-03-29 19:24:08,332] utils.py line:122 [DEBUG]: 打开文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
+[2016-03-29 19:24:08,332] utils.py line:122 [DEBUG]: 开始写入文件C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\report\index.html
+[2016-03-29 19:24:08,332] utils.py line:122 [DEBUG]: 关闭文件
+[2016-03-29 19:24:08,332] utils.py line:122 [DEBUG]: 渲染报告结束
