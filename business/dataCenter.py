@@ -88,7 +88,7 @@ class dataCenter(object):
 
 		# 以下为需要转化为dict类型的字段
 		# self.data = self.stringToDict(self.data)
-		# self.passObject = self.stringToDict(self.passObject)
+		self.passObject = self.stringToDict(self.passObject)
 		self.checkData = self.stringToDict(self.checkData)
 		self.dependency = self.stringToDict(self.dependency)
 
@@ -102,12 +102,15 @@ class dataCenter(object):
 
 	def stringToDict(self, mystring):
 		utils.logSave("stringToDict输入参数：" + str(mystring) + "类型：" + str(type(mystring)))
+		if isinstance(mystring,unicode):
+			mystring = mystring.encode("utf-8")
 		if isinstance(mystring,str) and mystring is not "":
-			if re.search('^{.*}$',mystring):
+			if re.search('^{.*}$',mystring) or re.search('^\[.*\]$',mystring):
 				try:
 					return json.loads(mystring)
 				except Exception, e:
 					utils.logSave("stringToDict()出现异常，入参为：" + str(mystring) + e)
+					return mystring
 		utils.logSave("stringToDict不满足匹配条件，返回原输入参数")
 		return mystring
 

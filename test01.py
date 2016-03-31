@@ -14,27 +14,47 @@ import time
 
 
 
+# def stringToDict(mystring):
+# 	if isinstance(mystring,unicode):
+# 		mystring = mystring.encode("utf-8")
+# 	if isinstance(mystring,str) and mystring is not "":
+# 		if re.search('^{.*}$',mystring) or re.search('^[.*]$',mystring):
+# 			try:
+# 				return json.loads(mystring)
+# 			except Exception, e:
+# 				return mystring
+# 	return mystring
 
-class myclass(object):
-	"""docstring for myclass"""
-	def __init__(self, string1):
-		super(myclass, self).__init__()
-		self.dict1 = self.stringToDict(string1)
 
-	def stringToDict(self,mystring):
-		if isinstance(mystring,str) and mystring is not "":
-			if re.search('^{.*}$',mystring):
-				try:
-					print mystring
-					return json.loads(mystring)
-				except Exception, e:
-					utils.logSave("stringToDict()出现异常，入参为：" + str(mystring) + e)
-		return {}
+# list1 = '["a","注册","1",1]'
+# # mylist = json.loads(list1)
+# # print mylist[3]
+# if re.search('^{.*}$',list1) or re.search('^\[.*\]$',list1):
+# 	print 11
 
-a1 = '{"$[code]":0,"$[data].[data[*].order_id":""}'
-# c = '{"登录":"正常登录","登录2":"异常登录操作5"}'
-a = myclass(a1)
-print a.dict1
+
+# print stringToDict(list1)
+
+# class myclass(object):
+# 	"""docstring for myclass"""
+# 	def __init__(self, string1):
+# 		super(myclass, self).__init__()
+# 		self.dict1 = self.stringToDict(string1)
+
+# 	def stringToDict(self,mystring):
+# 		if isinstance(mystring,str) and mystring is not "":
+# 			if re.search('^{.*}$',mystring):
+# 				try:
+# 					print mystring
+# 					return json.loads(mystring)
+# 				except Exception, e:
+# 					utils.logSave("stringToDict()出现异常，入参为：" + str(mystring) + e)
+# 		return {}
+
+# a1 = '{"$[code]":0,"$[data].[data[*].order_id":""}'
+# # c = '{"登录":"正常登录","登录2":"异常登录操作5"}'
+# a = myclass(a1)
+# print a.dict1
 # print a.dict1
 # s = json.loads(c)
 # print s
