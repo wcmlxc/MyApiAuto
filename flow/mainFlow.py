@@ -43,21 +43,26 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	dc = dataCenter(apiTestCaseFilePath,sheet,rowNum)
 
 	if dc.isNeedToRun == "yes":
-		if len(dc.dependency) > 0:
-			print len(dc.dependency)
-			if businessTools.getResultFromTestCaseName(dc.dependency) == 0:
-				print businessTools.getResultFromTestCaseName(dc.dependency)
-				print "dependency pass and set isNeedToRun yes"
-				dc.isNeedToRun = "yes"
-			else:
-				print "dependency fail and set isNeedToRun no"
-				dc.isNeedToRun = "no"
-				# dc.passObjectValue = ""
-				# dc.result = 
-				# dc.msg = ""
-				# dc.responseTime = 0
-				# dc.statusCode = 
-				# businessTools.insertTable(dc.testCaseNumber,dc.testCaseModule,dc.testCaseName,dc.apiName,dc.apiNotice,dc.testCaseLevel,dc.method,dc.host,dc.url,str(dc.data),dc.passObject,dc.passObjectValue,dc.checkMode,dc.result,dc.msg,dc.responseTime,dc.statusCode,buildTimes)
+		if isinstance(dc.dependency,dict) and len(dc.dependency) > 0:
+			print "dependency length:{}".format(len(dc.dependency))
+			for key in dc.dependency:
+				dc.flag = businessTools.getResultByDependency(dc.dependency[key],key)
+				if isinstance(dc.flag,unicode):
+					try:
+						dc.flag = int(dc.flag)
+					except Exception, e:
+						dc.flag = 99
+						utils.logSave("获取依赖用例的结果异常，判断为fail")
+				if isinstance(dc.flag,int) and dc.flag is not 0:
+					print "dependency fail and set isNeedToRun no"
+					dc.isNeedToRun = "no"
+					break				
+					# dc.passObjectValue = ""
+					# dc.result = 
+					# dc.msg = ""
+					# dc.responseTime = 0
+					# dc.statusCode = 
+					# businessTools.insertTable(dc.testCaseNumber,dc.testCaseModule,dc.testCaseName,dc.apiName,dc.apiNotice,dc.testCaseLevel,dc.method,dc.host,dc.url,str(dc.data),dc.passObject,dc.passObjectValue,dc.checkMode,dc.result,dc.msg,dc.responseTime,dc.statusCode,buildTimes)
 
 	#判断是否执行
 	if dc.isNeedToRun == "yes":
@@ -72,9 +77,10 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 		time.sleep(dc.sleepTime)
 		utils.logSave("执行睡眠时间：" + str(dc.sleepTime))
 
-	if isinstance(dc.data,str):
-	    if re.search('^{.*}$',dc.data):
-	        dc.data = json.loads(dc.data)
+	# 转化data的类型为dict
+	# if isinstance(dc.data,str):
+	#     if re.search('^{.*}$',dc.data):
+	#         dc.data = json.loads(dc.data)
 	#创建request连接的实例
 	dc.req = requestApi(dc.fullurl,dc.data)
 
@@ -114,7 +120,7 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 		except Exception, e:
 			utils.logSave(e,"error")
 			dc.passObjectValue = dc.passObject
-	utils.logSave("passObjectValue:" + str(dc.passObjectValue))
+	utils.logSave("passObjectValue:[" + str(dc.passObjectValue) + "]")
 	utils.logSave("透传参数处理结束...")
 	# ================================透传参数处理结束==================================================
 
@@ -125,17 +131,17 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 			#精确匹配模式
 			utils.logSave("进入exact模式")
 			utils.logSave("打印excel里面的字典:" + str(dc.checkData))
-			if dc.checkData is not None or dc.checkData is not  "":
-				dc.checkData = json.loads(dc.checkData)
+			# if dc.checkData is not None or dc.checkData is not "":
+			# 	dc.checkData = json.loads(dc.checkData)
+
 			dc.result = cmp(dc.res,dc.checkData) #完全匹配返回0；第一个参数<第二个参数，返回-1；第一个参数>第二个参数，返回1
 
 		elif dc.checkMode.startswith("jsonpath"):
 			#jsonpath匹配模式
 			utils.logSave("进入jsonpath模式")
 			utils.logSave("打印excel里面的字典:" + str(dc.checkData))
-
-			if dc.checkData is not None or dc.checkData is not "":
-				dc.checkData = json.loads(dc.checkData)
+			# if dc.checkData is not None or dc.checkData is not "":
+			# 	dc.checkData = json.loads(dc.checkData)
 
 			for x in dc.checkData:
 				expression_data = x

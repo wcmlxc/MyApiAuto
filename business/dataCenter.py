@@ -39,7 +39,6 @@ class dataCenter(object):
 
 		self.rowNum = rowNum
 		self.testCaseNumber = businessTools.dataProcess(self.excel.read(rowNum+1,1),float,0)
-		utils.logSave("testCaseNumber:" + str(self.testCaseNumber))
 		self.testCaseModule = businessTools.dataProcess(self.excel.read(rowNum+1,2),str,"")
 		self.testCaseName = businessTools.dataProcess(self.excel.read(rowNum+1,3),str,"")
 		self.apiName = businessTools.dataProcess(self.excel.read(rowNum+1,4),str,"")
@@ -48,28 +47,23 @@ class dataCenter(object):
 		self.method = businessTools.dataProcess(self.excel.read(rowNum+1,7),str,"get").lower()
 		self.host = businessTools.dataProcess(self.excel.read(rowNum+1,8),str,"")
 		self.url = businessTools.dataProcess(self.excel.read(rowNum+1,9),str,"")
-
 		self.fullurl = self.host + self.url
-		utils.logSave("fullurl为:" + self.fullurl)
-
 		self.data = businessTools.dataProcess(self.excel.read(rowNum+1,10),str,"")
-		self.passObject = businessTools.dataProcess(self.excel.read(rowNum+1,11),str,"")
+		self.passObject = businessTools.dataProcess(self.excel.read(rowNum+1,11),str,"")		
 		self.checkData = businessTools.dataProcess(self.excel.read(rowNum+1,12),str,"")
-
 		self.checkMode = businessTools.dataProcess(self.excel.read(rowNum+1,13),str,"noMode")
 		self.isNeedToRun = businessTools.dataProcess(self.excel.read(rowNum+1,14),str,"no").lower()
-		utils.logSave("isNeedToRun为:" + self.isNeedToRun)
 		self.sleepTime = businessTools.dataProcess(self.excel.read(rowNum+1,15),float,0)
-		utils.logSave("sleepTime:" + str(self.sleepTime))
 		self.dependency = businessTools.dataProcess(self.excel.read(rowNum+1,16),str,"")
-		utils.logSave("dependency:" + str(self.dependency))
-
-
+		#self.dependency = ""
+		
 		if self.isNeedToRun == "yes":
 			# 进行参数透传的嵌套循环处理
 			self.fullurl = businessTools.replaceString(self.fullurl)
 			self.data = businessTools.replaceString(self.data)
 			self.checkData = businessTools.replaceString(self.checkData)
+			utils.logSave("透传处理得到的data为:" + self.data + "类型：" + str(type(self.data)))
+			utils.logSave("透传处理得到的checkData为:" + self.checkData + "类型：" + str(type(self.checkData)))
 			utils.logSave("透传处理得到的fullurl为:" + self.fullurl)
 
 			# Update公共参数表
@@ -92,8 +86,30 @@ class dataCenter(object):
 		else:
 			utils.logSave("isNeedToRun为" + self.isNeedToRun + " ，不需要执行")
 
-		
+		# 以下为需要转化为dict类型的字段
+		# self.data = self.stringToDict(self.data)
+		# self.passObject = self.stringToDict(self.passObject)
+		self.checkData = self.stringToDict(self.checkData)
+		self.dependency = self.stringToDict(self.dependency)
+
+		utils.logSave("testCaseNumber:" + str(self.testCaseNumber))
+		utils.logSave("fullurl为:" + self.fullurl)
+		utils.logSave("isNeedToRun为:" + self.isNeedToRun)
+		utils.logSave("sleepTime:" + str(self.sleepTime))
+		utils.logSave("checkData:" + str(self.checkData))
+		utils.logSave("dependency:" + str(self.dependency))
 		print "数据处理中心处理得到的数据类型data:{}passObject:{}checkMode{}".format(type(self.data),type(self.passObject),type(self.checkMode))
+
+	def stringToDict(self, mystring):
+		utils.logSave("stringToDict输入参数：" + str(mystring) + "类型：" + str(type(mystring)))
+		if isinstance(mystring,str) and mystring is not "":
+			if re.search('^{.*}$',mystring):
+				try:
+					return json.loads(mystring)
+				except Exception, e:
+					utils.logSave("stringToDict()出现异常，入参为：" + str(mystring) + e)
+		utils.logSave("stringToDict不满足匹配条件，返回原输入参数")
+		return mystring
 
 if __name__ == '__main__':
 	apiTestCaseFilePath = config.apiTestCaseFilePath

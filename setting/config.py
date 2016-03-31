@@ -14,7 +14,7 @@ import os
 #	如果为False，会按顺序全部执行
 #注意：True/False 一定要注意大小写，其类型为布尔值
 ############################################################################################
-isChooseList = True
+isChooseList = False
 toRunList = ["登录"]
 
 ############################################################################################
@@ -38,6 +38,7 @@ mailto_list=["zhoudongbin@mmbang.net"]
 #获取sign接口的地址
 ############################################################################################
 host = "http://master.shop.mmbang.net"
+#host = "http://haowan.mmbang.com"
 getSingUrl = host + "/user/test/sign"
 
 

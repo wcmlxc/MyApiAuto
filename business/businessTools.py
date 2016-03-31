@@ -135,18 +135,25 @@ def fetchData(sql):
         return result
 
 def replaceString(inputString):
-    matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
-    if matchObj:
-        stringTemp = matchObj.group()
-        sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject='" + stringTemp[2:-1] + "' order by ID desc limit 1"
-        temp = fetchData(sql)
-        #如果查询不到数据的话，暂时不做处理，以后扩展的时候加上用例依赖
-        if temp is None or temp is "":
-            resultString = inputString.replace(stringTemp,temp)
+    if isinstance(inputString,unicode):
+        inputString = inputString.encode('utf-8')
+    if isinstance(inputString,str):
+        matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
+        if matchObj:
+            stringTemp = matchObj.group()
+            sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject='" + stringTemp[2:-1] + "' order by ID desc limit 1"
+            temp = fetchData(sql)
+            #如果查询不到数据的话，暂时不做处理，以后扩展的时候加上用例依赖
+            if temp is None or temp is "":
+                resultString = inputString.replace(stringTemp,temp)
+            else:
+                resultString = inputString.replace(stringTemp,temp)
+            return replaceString(resultString)
         else:
-            resultString = inputString.replace(stringTemp,temp)
-        return replaceString(resultString)
+            utils.logSave("没有满足$()的匹配，所以返回原字符串")
+            return inputString
     else:
+        utils.logSave("输入内容不是字符串类型，所以返回原输入内容")
         return inputString
 
 
@@ -253,8 +260,8 @@ def returnValue(json, passObject):
             return returnValue(json[d],passObject)
     return ""
 
-def getResultFromTestCaseName(mystring):
-    sql = "SELECT result FROM result where testCaseName=" + "'" + mystring + "'" + " and buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1)"
+def getResultByDependency(testCaseModule, testCaseName):
+    sql = "SELECT result FROM result where testCaseModule=" + "'" + testCaseModule + "'" + " and testCaseName="  + "'" + testCaseName + "'" + " and buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1)"
     return fetchData(sql)
 
 def getSign(data):

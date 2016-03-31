@@ -12,15 +12,57 @@ import datetime
 import time
 
 
-print int(10.0)
-print datetime.datetime.now()
-time.sleep(1.0)
 
-print datetime.datetime.now()
 
-mystring = "正常登录"
-sql = "SELECT result FROM result where testCaseName=" + "'" + mystring + "'" + " and buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1)"
-print sql
+
+class myclass(object):
+	"""docstring for myclass"""
+	def __init__(self, string1):
+		super(myclass, self).__init__()
+		self.dict1 = self.stringToDict(string1)
+
+	def stringToDict(self,mystring):
+		if isinstance(mystring,str) and mystring is not "":
+			if re.search('^{.*}$',mystring):
+				try:
+					print mystring
+					return json.loads(mystring)
+				except Exception, e:
+					utils.logSave("stringToDict()出现异常，入参为：" + str(mystring) + e)
+		return {}
+
+a1 = '{"$[code]":0,"$[data].[data[*].order_id":""}'
+# c = '{"登录":"正常登录","登录2":"异常登录操作5"}'
+a = myclass(a1)
+print a.dict1
+# print a.dict1
+# s = json.loads(c)
+# print s
+# print s.keys()
+
+
+
+
+# a = '{"登录":"正常登录","登录":"异常登录操作5"}'
+# b = {}
+# c = {"a":1,"b":2}
+
+# if b:
+# 	print 11
+# print len(c)
+# print type(b)
+# print type(json.loads(a))
+
+# print int(10.0)
+# print datetime.datetime.now()
+# time.sleep(1.0)
+
+# print datetime.datetime.now()
+
+# testCaseModule = "登录"
+# caseName = "正常登录"
+# sql = "SELECT result FROM result where testCaseModule=" + "'" + testCaseModule + "'" + " and testCaseName="  + "'" + caseName + "'" + " and buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1)"
+# print sql
 
 # data1 = "app_version=1.4.0&app_client_id=4&"
 # print data1[:-1]
