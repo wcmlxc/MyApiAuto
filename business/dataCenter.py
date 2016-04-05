@@ -114,6 +114,12 @@ class dataCenter(object):
 		utils.logSave("stringToDict不满足匹配条件，返回原输入参数")
 		return mystring
 
+	def setIsNeedToRun(isNeedToRun):
+		self.isNeedToRun = isNeedToRun
+		
+	def function():
+		pass
+
 if __name__ == '__main__':
 	apiTestCaseFilePath = config.apiTestCaseFilePath
 	dc = dataCenter(apiTestCaseFilePath, "注册", 2)

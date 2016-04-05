@@ -34,6 +34,24 @@ def tearDown():
 	businessTools.updateSign("")
 	businessTools.updateSid("")
 
+
+def dependencyProcess(myObject):
+	if myObject.isNeedToRun == "yes":
+			if isinstance(myObject.dependency,dict) and len(myObject.dependency) > 0:
+				print "dependency length:{}".format(len(myObject.dependency))
+				for key in myObject.dependency:
+					myObject.flag = businessTools.getResultByDependency(myObject.dependency[key],key)
+					if isinstance(myObject.flag,unicode):
+						try:
+							myObject.flag = int(myObject.flag)
+						except Exception, e:
+							myObject.flag = 99
+							utils.logSave("获取依赖用例的结果异常，判断为fail")
+					if isinstance(myObject.flag,int) and myObject.flag is not 0:
+						print "dependency fail and set isNeedToRun no"
+						myObject.setIsNeedToRun("no")
+						break				
+
 # 循环对每个sheet的每条用例进行请求操作
 # for rowNum in xrange(1, excel.getRows()):
 def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
@@ -42,27 +60,8 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	#创建实例
 	dc = dataCenter(apiTestCaseFilePath,sheet,rowNum)
 
-	if dc.isNeedToRun == "yes":
-		if isinstance(dc.dependency,dict) and len(dc.dependency) > 0:
-			print "dependency length:{}".format(len(dc.dependency))
-			for key in dc.dependency:
-				dc.flag = businessTools.getResultByDependency(dc.dependency[key],key)
-				if isinstance(dc.flag,unicode):
-					try:
-						dc.flag = int(dc.flag)
-					except Exception, e:
-						dc.flag = 99
-						utils.logSave("获取依赖用例的结果异常，判断为fail")
-				if isinstance(dc.flag,int) and dc.flag is not 0:
-					print "dependency fail and set isNeedToRun no"
-					dc.isNeedToRun = "no"
-					break				
-					# dc.passObjectValue = ""
-					# dc.result = 
-					# dc.msg = ""
-					# dc.responseTime = 0
-					# dc.statusCode = 
-					# businessTools.insertTable(dc.testCaseNumber,dc.testCaseModule,dc.testCaseName,dc.apiName,dc.apiNotice,dc.testCaseLevel,dc.method,dc.host,dc.url,str(dc.data),dc.passObject,dc.passObjectValue,dc.checkMode,dc.result,dc.msg,dc.responseTime,dc.statusCode,buildTimes)
+	#判断依赖用例是否通过
+	dependencyProcess(dc)
 
 	#判断是否执行
 	if dc.isNeedToRun == "yes":
@@ -77,10 +76,6 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 		time.sleep(dc.sleepTime)
 		utils.logSave("执行睡眠时间：" + str(dc.sleepTime))
 
-	# 转化data的类型为dict
-	# if isinstance(dc.data,str):
-	#     if re.search('^{.*}$',dc.data):
-	#         dc.data = json.loads(dc.data)
 	#创建request连接的实例
 	dc.req = requestApi(dc.fullurl,dc.data)
 
@@ -91,6 +86,7 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	elif dc.method == "post":
 		utils.logSave("请求方式为post,执行post方法")
 		dc.req.post()
+	
 	print dc.method
 	#打印完整URL
 	utils.logSave("请求的完整URL:" + str(dc.req.getUrl()))
