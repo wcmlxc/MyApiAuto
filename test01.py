@@ -59,12 +59,19 @@ def replaceString1(inputString):
             return inputString
     else:
         return inputString
-inputString = "$(sid_id)"
+
+inputString = "$(id)"
 matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
 stringTemp = matchObj.group()
 # stringTemp = stringTemp[2:-1]
-sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%" + stringTemp[2:-1] + "%' order by ID desc limit 1"
+#sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%" + stringTemp[2:-1] + "%' order by ID desc limit 1"
+sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%\"" + stringTemp[2:-1] + "\"%' order by ID desc limit 1"
 print sql
+
+
+
+
+
 # def stringToDict(mystring):
 # 	if isinstance(mystring,unicode):
 # 		mystring = mystring.encode("utf-8")

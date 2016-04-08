@@ -59,9 +59,9 @@ class dataCenter(object):
 		
 		if self.isNeedToRun == "yes":
 			# 进行参数透传的嵌套循环处理
-			self.fullurl = businessTools.replaceString(self.fullurl)
-			self.data = businessTools.replaceString(self.data)
-			self.checkData = businessTools.replaceString(self.checkData)
+			self.fullurl = businessTools.replaceStringNew(self.fullurl)
+			self.data = businessTools.replaceStringNew(self.data)
+			self.checkData = businessTools.replaceStringNew(self.checkData)
 			utils.logSave("透传处理得到的data为:" + self.data + "类型：" + str(type(self.data)))
 			utils.logSave("透传处理得到的checkData为:" + self.checkData + "类型：" + str(type(self.checkData)))
 			utils.logSave("透传处理得到的fullurl为:" + self.fullurl)

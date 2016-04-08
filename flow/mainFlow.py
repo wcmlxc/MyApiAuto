@@ -98,27 +98,27 @@ def requestExcel(apiTestCaseFilePath, sheet, rowNum, buildTimes):
 	utils.logSave("透传参数处理开始...")
 	utils.logSave("透传参数打印:" + str(dc.passObject) + "类型:" + str(type(dc.passObject)))
 	if isinstance(dc.passObject,list):
-		dc.passObjectValue = []
+		dc.passObjectValue = {}
 		for param in dc.passObject:
 			utils.logSave("param:[" + str(param) + "]")
 			if param is None or param is "":
 				# 透传参数为空时，参数的值也为空
 				utils.logSave("透传参数为空...")
-				dc.passObjectValue.append("")
+				# dc.passObjectValue.append("")
 			elif param == "sid":
 				# 透传参数设置为sid时，获取sid的值保存到公共参数表的sid字段中
 				utils.logSave("透传参数为sid...")
 				dc.sidValue = businessTools.returnValue(dc.res, "sid")
 				businessTools.updateSid(dc.sidValue)
 				# dc.passObjectValue = dc.sidValue
-				dc.passObjectValue.append(dc.sidValue)
+				dc.passObjectValue["sid"] = dc.sidValue
 				utils.logSave("sid:" + str(dc.sidValue))
 			else:
 				# 透传参数为其他值时，获取透传参数的值保存到结果表中
 				utils.logSave("透传参数为其他值（非sid）...")
 				try:
 					# dc.passObjectValue = businessTools.returnValue(dc.res, param)
-					dc.passObjectValue.append(businessTools.returnValue(dc.res, param))
+					dc.passObjectValue[param] = businessTools.returnValue(dc.res, param)
 				except Exception, e:
 					# utils.logSave(e,"error")
 					print e

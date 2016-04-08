@@ -144,6 +144,8 @@ def replaceString(inputString):
             sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject='" + stringTemp[2:-1] + "' order by ID desc limit 1"
             temp = fetchData(sql)
             #如果查询不到数据的话，暂时不做处理，以后扩展的时候加上用例依赖
+            tempdict = json.loads(temp)
+
             if temp is None or temp is "":
                 resultString = inputString.replace(stringTemp,temp)
             else:
@@ -156,29 +158,31 @@ def replaceString(inputString):
         utils.logSave("输入内容不是字符串类型，所以返回原输入内容")
         return inputString
 
-# def replaceStringNew(inputString):
-#     if isinstance(inputString,unicode):
-#         inputString = inputString.encode('utf-8')
-#     if isinstance(inputString,str):
-#         matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
-#         if matchObj:
-#             stringTemp = matchObj.group()
-#             # sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject='" + stringTemp[2:-1] + "' order by ID desc limit 1"
-#             sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%" + stringTemp[2:-1] + "%' order by ID desc limit 1"
-#             tempResult = fetchData(sql)
-#             temp = json.loads(tempResult)
-#             #如果查询不到数据的话，暂时不做处理，以后扩展的时候加上用例依赖
-#             if temp is None or temp is "":
-#                 resultString = inputString.replace(stringTemp,temp)
-#             else:
-#                 resultString = inputString.replace(stringTemp,temp)
-#             return replaceStringNew(resultString)
-#         else:
-#             utils.logSave("没有满足$()的匹配，所以返回原字符串")
-#             return inputString
-#     else:
-#         utils.logSave("输入内容不是字符串类型，所以返回原输入内容")
-#         return inputString
+def replaceStringNew(inputString):
+    if isinstance(inputString,unicode):
+        inputString = inputString.encode('utf-8')
+    if isinstance(inputString,str):
+        matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
+        if matchObj:
+            stringTemp = matchObj.group()
+            # sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject='" + stringTemp[2:-1] + "' order by ID desc limit 1"
+            sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%\"" + stringTemp[2:-1] + "\"%' order by ID desc limit 1"
+            temp = fetchData(sql)
+            tempdict = json.loads(temp)
+            tempResult = tempdict[stringTemp[2:-1]]
+            resultString = inputString.replace(stringTemp,tempResult)
+            #如果查询不到数据的话，暂时不做处理，以后扩展的时候加上用例依赖
+            # if temp is None or temp is "":
+            #     resultString = inputString.replace(stringTemp,temp)
+            # else:
+            #     resultString = inputString.replace(stringTemp,temp)
+            return replaceStringNew(resultString)
+        else:
+            utils.logSave("没有满足$()的匹配，所以返回原字符串")
+            return inputString
+    else:
+        utils.logSave("输入内容不是字符串类型，所以返回原输入内容")
+        return inputString
 
 def dataPlus(data, myDict, skipList=[]):
     '''实现字符串拼接'''
