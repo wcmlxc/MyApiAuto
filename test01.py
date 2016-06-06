@@ -12,61 +12,72 @@ import re
 import datetime
 import time
 
-def fetchData(sql):
-    '''查询一条精确数据...'''
-    print 44
-    # fetchone_sql = 'SELECT name FROM student WHERE ID = ? '
-    # data = 1
-    filepath = r"C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\database\database.db"
-    try:
-    	print 55
-        conn = sqliteHandler.get_conn(filepath)
-        print 22
-        print conn
-        result = sqliteHandler.fetchoneExact(conn, sql)
-        print result
-    except Exception, e:
-        result = ""        
-    if result is None or result is "":
-        return ""
-    else:
-        return result
 
-def replaceString1(inputString):
-    if isinstance(inputString,unicode):
-        inputString = inputString.encode('utf-8')
-    if isinstance(inputString,str):
-        matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
-        if matchObj:
-            stringTemp = matchObj.group()
-            sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject='" + stringTemp[2:-1] + "' order by ID desc limit 1"
-            sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%" + stringTemp[2:-1] + "%' order by ID desc limit 1"
-            print sql
-            temp = fetchData(sql)
-            print 33
-            print temp
-            if re.search('\[*\]',temp):
-            	temp1 = json.loads(temp)
-            else:
-            	temp1 = ""
-            #如果查询不到数据的话，暂时不做处理，以后扩展的时候加上用例依赖
-            if temp1 is None or temp1 is "":
-                resultString = inputString.replace(stringTemp,temp)
-            else:
-                resultString = inputString.replace(stringTemp,temp)
-            return replaceString1(resultString)
-        else:
-            return inputString
-    else:
-        return inputString
+class Rct(object):
+    """docstring for Rct"""
+    def __init__(self, arg):
+        super(Rct, self).__init__()
+        self.arg = arg
 
-inputString = "$(id)"
-matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
-stringTemp = matchObj.group()
-# stringTemp = stringTemp[2:-1]
-#sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%" + stringTemp[2:-1] + "%' order by ID desc limit 1"
-sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%\"" + stringTemp[2:-1] + "\"%' order by ID desc limit 1"
-print sql
+    def __setattr__(self, name, value):
+        pass
+        
+
+# def fetchData(sql):
+#     '''查询一条精确数据...'''
+#     print 44
+#     # fetchone_sql = 'SELECT name FROM student WHERE ID = ? '
+#     # data = 1
+#     filepath = r"C:\Users\zhoudonbin\Documents\GitHub\MyApiAuto\result\database\database.db"
+#     try:
+#     	print 55
+#         conn = sqliteHandler.get_conn(filepath)
+#         print 22
+#         print conn
+#         result = sqliteHandler.fetchoneExact(conn, sql)
+#         print result
+#     except Exception, e:
+#         result = ""        
+#     if result is None or result is "":
+#         return ""
+#     else:
+#         return result
+
+# def replaceString1(inputString):
+#     if isinstance(inputString,unicode):
+#         inputString = inputString.encode('utf-8')
+#     if isinstance(inputString,str):
+#         matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
+#         if matchObj:
+#             stringTemp = matchObj.group()
+#             sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject='" + stringTemp[2:-1] + "' order by ID desc limit 1"
+#             sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%" + stringTemp[2:-1] + "%' order by ID desc limit 1"
+#             print sql
+#             temp = fetchData(sql)
+#             print 33
+#             print temp
+#             if re.search('\[*\]',temp):
+#             	temp1 = json.loads(temp)
+#             else:
+#             	temp1 = ""
+#             #如果查询不到数据的话，暂时不做处理，以后扩展的时候加上用例依赖
+#             if temp1 is None or temp1 is "":
+#                 resultString = inputString.replace(stringTemp,temp)
+#             else:
+#                 resultString = inputString.replace(stringTemp,temp)
+#             return replaceString1(resultString)
+#         else:
+#             return inputString
+#     else:
+#         return inputString
+
+# inputString = "$(id)"
+# matchObj = re.search('\$\(\w*\)', inputString , re.M|re.I)
+# stringTemp = matchObj.group()
+# # stringTemp = stringTemp[2:-1]
+# #sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%" + stringTemp[2:-1] + "%' order by ID desc limit 1"
+# sql = "select passObjectValue from result where buildTimes=(select distinct buildTimes from result order by buildTimes desc limit 1) and passObject like '%\"" + stringTemp[2:-1] + "\"%' order by ID desc limit 1"
+# print sql
 
 
 
