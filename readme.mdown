@@ -39,4 +39,6 @@
 >$Root/test       - 项目测试用例保存地址
 >$Root/tools      - 封装了常用的基本方法
 
+Amy test pull request, please delete this paragraph . 
+
 
